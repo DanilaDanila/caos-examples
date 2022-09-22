@@ -1,0 +1,21 @@
+SOME_VAR=123
+COMPILER=gcc
+CFLAGS=-std=c11
+OUTPUT=test
+
+all: $(OUTPUT)
+
+$(OUTPUT): main.o a.o b.o
+	$(COMPILER) main.o a.o b.o -o $(OUTPUT)
+
+a.o: a.h a.c
+	$(COMPILER) -std=c11 -c a.c
+
+b.o: b.h b.c
+	$(COMPILER) -std=c11 -c b.c
+
+main.o: a.h b.h main.c
+	$(COMPILER) -std=c11 -c main.c
+
+clean:
+	rm -rf *.o $(OUTPUT)

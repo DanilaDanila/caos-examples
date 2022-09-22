@@ -1,0 +1,1281 @@
+Script started on 2022-09-07 09:26:23+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="75" LINES="19"]
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ whoami
+dmanakov
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ echo ""a"s"d"a"d"
+asdad
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ print %d[K[K[K[K[K[K[K[Kecho [K[K[K[K[Kasda[K[K[K[Kvar=123 =123[1P=123 =123[1P=123 =123[1P=123 =123[1P=123 =123[1P=123[C[C[C[C
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ echo $var
+123
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ echo $var"$var[C[C[C[C"
+123
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ echo "$var" "a"s"d"a"d"a"d"a"
+123 asdadada
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ [H[2J]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ echo "$var asdadada"
+123 asdadada
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ echo "$var asdadada"[K'[C[1P[1@'
+$var asdadada
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ ``[C[C  $()[1@ [1@a[1@s[1@d[1P[1P[1P[1P[1@a[1@s[1@d[1@a[1@d[C[C[C[C[C[C[K[K[K[K[K[C[C[C[C[K[K[K[K[K[K[Kls /
+[0m[01;36mbin[0m   [01;34mdev[0m  [01;34mhome[0m  [01;36mlib[0m    [01;36mlib64[0m   [01;34mlost+found[0m  [01;34mmnt[0m  [01;34mproc[0m  [01;34mrun[0m   [01;34msrv[0m  [30;42mtmp[0m  [01;34mvar[0m
+[01;34mboot[0m  [01;34metc[0m  [01;32minit[0m  [01;36mlib32[0m  [01;36mlibx32[0m  [01;34mmedia[0m       [01;34mopt[0m  [01;34mroot[0m  [01;36msbin[0m  [01;34msys[0m  [01;34musr[0m
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ roo[K[K[Kvar=``l`s` `/`
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ ech[Kho $var
+bin boot dev etc home init lib lib32 lib64 libx32 lost+found media mnt opt proc root run sbin srv sys tmp usr var
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ echo $var[Cvar=`ls /`[K[K[K[K[K[K$()l)s) )/)
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ var=$(ls /)[2Pecho $var
+bin boot dev etc home init lib lib32 lib64 libx32 lost+found media mnt opt proc root run sbin srv sys tmp usr var
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ txmu[K[K[K[Kvim[K[K[Kcd
+]0;dmanakov@NOTEBOOK-k0zFS5: ~[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~[00m$ [H[2J]0;dmanakov@NOTEBOOK-k0zFS5: ~[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~[00m$ ls -la
+total 674856
+drwxr-xr-x 14 dmanakov dmanakov      4096 Sep  7 09:26 [0m[01;34m.[0m
+drwxr-xr-x  3 root     root          4096 Aug  6 00:31 [01;34m..[0m
+-rw-------  1 root     root           187 Aug 18 10:05 .bash_history
+-rw-r--r--  1 dmanakov dmanakov       220 Feb 25  2020 .bash_logout
+-rw-r--r--  1 dmanakov dmanakov      3771 Feb 25  2020 .bashrc
+drwxrwxr-x  8 dmanakov dmanakov      4096 Aug 16 18:18 [01;34m.cache[0m
+drwxrwxr-x  2 dmanakov dmanakov      4096 Aug 16 12:51 [01;34m.conda[0m
+drwxrwxr-x  6 dmanakov dmanakov      4096 Sep  6 22:12 [01;34m.config[0m
+-rw-rw-r--  1 dmanakov dmanakov        60 Aug  8 16:06 .gitconfig
+drwxr-xr-x  5 dmanakov dmanakov      4096 Aug  6 00:54 [01;34m.ipython[0m
+drwxrwxr-x  3 dmanakov dmanakov      4096 Aug 17 13:24 [01;34m.jupyter[0m
+-rw-------  1 dmanakov dmanakov        79 Sep  5 10:44 .lesshst
+drwx------  7 dmanakov dmanakov      4096 Aug 16 12:32 [01;34m.local[0m
+-rw-r--r--  1 dmanakov dmanakov       807 Feb 25  2020 .profile
+-rw-------  1 dmanakov dmanakov        36 Aug  9 13:35 .python_history
+drwx------  2 dmanakov dmanakov      4096 Aug  8 16:02 [01;34m.ssh[0m
+-rw-r--r--  1 dmanakov dmanakov         0 Aug  6 00:33 .sudo_as_admin_successful
+-rw-------  1 dmanakov dmanakov     12288 Aug  8 17:20 .swp
+-rw-------  1 dmanakov dmanakov     14774 Sep  7 09:25 .viminfo
+-rw-rw-r--  1 dmanakov dmanakov        31 Sep  6 22:44 .vimrc
+drwxrwxr-x  3 dmanakov dmanakov      4096 Aug  7 00:36 [01;34m.vscode-server[0m
+-rw-rw-r--  1 dmanakov dmanakov       224 Aug 29 12:35 .wget-hsts
+-rw-rw-r--  1 dmanakov dmanakov     49032 Aug 16 12:52 .zcompdump
+-rw-------  1 dmanakov dmanakov     19240 Sep  7 09:26 .zsh_history
+-rw-r--r--  1 dmanakov dmanakov      1993 Aug 16 12:51 .zshrc
+-rwxrwxr-x  1 dmanakov dmanakov 690850711 May 10 21:35 [01;32mAnaconda3-2022.05-Linux-x86_64.sh[0m
+drwxrwxr-x 28 dmanakov dmanakov      4096 Aug 17 21:04 [01;34manaconda3[0m
+drwxrwxr-x  3 dmanakov dmanakov      4096 Sep  6 22:31 [01;34mcaos[0m
+drwxrwxr-x  5 dmanakov dmanakov      4096 Aug 18 10:28 [01;34mdevelop[0m
+drwxrwxr-x  4 dmanakov dmanakov      4096 Sep  6 00:56 [01;34mdrafts[0m
+]0;dmanakov@NOTEBOOK-k0zFS5: ~[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~[00m$ ls -a -1
+[0m[01;34m.[0m
+[01;34m..[0m
+.bash_history
+.bash_logout
+.bashrc
+[01;34m.cache[0m
+[01;34m.conda[0m
+[01;34m.config[0m
+.gitconfig
+[01;34m.ipython[0m
+[01;34m.jupyter[0m
+.lesshst
+[01;34m.local[0m
+.profile
+.python_history
+[01;34m.ssh[0m
+.sudo_as_admin_successful
+.swp
+.viminfo
+.vimrc
+[01;34m.vscode-server[0m
+.wget-hsts
+.zcompdump
+.zsh_history
+.zshrc
+[01;32mAnaconda3-2022.05-Linux-x86_64.sh[0m
+[01;34manaconda3[0m
+[01;34mcaos[0m
+[01;34mdevelop[0m
+[01;34mdrafts[0m
+]0;dmanakov@NOTEBOOK-k0zFS5: ~[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~[00m$ su dmanako[K[K[K[K[K[K[K[K[K[Kvim .profile 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;19r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[19;1H".profile" 27L, 807C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[34m# ~/.profile: executed by the command interpreter for login shells.
+# This file is not read by bash(1), if ~/.bash_profile or ~/.bash_login
+# exists.
+# see /usr/share/doc/bash/examples/startup-files for examples.
+# the files are located in the bash-doc package.
+
+# the default umask is set in /etc/profile; for setting the umask
+# for ssh logins, install and configure the libpam-umask package.
+#umask 022
+
+# if running bash[m
+[38;5;130mif [[m [38;5;130m-n[m [38;5;130m"[m[35m$BASH_VERSION[m[38;5;130m"[m [38;5;130m];[m [38;5;130mthen[m
+    [34m# include .bashrc if it exists[m
+    [38;5;130mif [[m [38;5;130m-f[m [38;5;130m"[m[35m$HOME[m[31m/.bashrc[m[38;5;130m"[m [38;5;130m];[m [38;5;130mthen
+    . "[m[35m$HOME[m[31m/.bashrc[m[38;5;130m"
+[m    [38;5;130mfi
+fi[m[19;58H1,1[11CTop[1;1H[?25h[?25l[19;58H2[2;1H[?25h[?25l[19;58H3[3;1H[?25h[?25l[19;58H4[4;1H[?25h[?25l[19;58H5[5;1H[?25h[?25l[19;58H6,0-1[6;1H[?25h[?25l[19;58H7,1  [7;1H[?25h[?25l[19;58H8[8;1H[?25h[?25l[19;58H9[9;1H[?25h[?25l[19;58H10,0-1[10;1H[?25h[?25l[19;59H1,1  [11;1H[?25h[?25l[19;59H2[12;1H[?25h[?25l[19;59H3[13;1H[?25h[?25l[19;59H4[14;1H[?25h[?25l[19;59H5,1-4[15;4H[?25h[?25l[19;59H6,1  [16;1H[?25h[?25l[19;59H7[17;1H[?25h[?25l[1;18r[1;1H[9M[1;19r[10;1H[34m# set PATH so it includes user's private bin if it exists[m
+[38;5;130mif [[m [38;5;130m-d[m [38;5;130m"[m[35m$HOME[m[31m/bin[m[38;5;130m"[m [38;5;130m][m [38;5;130m;[m [38;5;130mthen[m
+    [35mPATH[m[38;5;130m="[m[35m$HOME[m[31m/bin:[m[35m$PATH[m[38;5;130m"
+fi[m
+
+[34m# set PATH so it includes user's private bin if it exists[m
+[38;5;130mif [[m [38;5;130m-d[m [38;5;130m"[m[35m$HOME[m[31m/.local/bin[m[38;5;130m"[m [38;5;130m][m [38;5;130m;[m [38;5;130mthen[m
+    [35mPATH[m[38;5;130m="[m[35m$HOME[m[31m/.local/bin:[m[35m$PATH[m[38;5;130m"
+fi[m[19;1H[K[19;58H27,1[10CBot[18;1H[?25h[?25l[19;58H[K[19;1H/[?2004h[?25hdo[?25l[19;3H[K[19;3H[?25h[?25l[19;2H[K[19;2H[?25h [?25l[56C27,1[10CBot[18;1H[?25h[?25l[19;59H6[17;1H[?25h[?25l[19;59H5[16;1H[?25h[?25l[19;59H4[15;1H[?25h[?25l[19;59H3,0-1[14;1H[?25h[?25l[19;59H2,1  [13;1H[?25h[?25l[19;59H1[12;1H[?25h[?25l[19;59H0[11;1H[?25h[?25l[19;58H19[10;1H[?25h[?25l[19;59H8,0-1[9;1H[?25h[?25l[19;59H7,1  [8;1H[?25h[?25l[19;59H6[7;1H[?25h[?25l[19;59H5,1-4[6;4H[?25h[?25l[19;59H4,1  [5;1H[?25h[?25l[19;59H3[4;1H[?25h[?25l[19;59H2[3;1H[?25h[?25l[19;59H1[2;1H[?25h[?25l[19;59H0,0-1[1;1H[?25h[?25l[1;18r[1;1H[L[1;19r[1;1H[34m#umask 022[m[19;58H[K[19;58H9,1[11C88%[1;1H[?25h[?25l[1;18r[1;1H[L[1;19r[1;1H[34m# for ssh logins, install and configure the libpam-umask package.[m[19;58H[K[19;58H8,1[11C77%[1;1H[?25h[?25l[1;18r[1;1H[L[1;19r[1;1H[34m# the default umask is set in /etc/profile; for setting the umask[m[19;58H[K[19;58H7,1[11C66%[1;1H[?25h[?25l[1;18r[1;1H[L[1;19r[19;58H[K[19;58H6,0-1[9C55%[1;1H[?25h[?25l[1;18r[1;1H[L[1;19r[1;1H[34m# the files are located in the bash-doc package.[m[19;58H[K[19;58H5,1[11C44%[1;1H[?25h[?25l[1;18r[1;1H[L[1;19r[1;1H[34m# see /usr/share/doc/bash/examples/startup-files for examples.[m[19;58H[K[19;58H4,1[11C33%[1;1H[?25h[?25l[1;18r[1;1H[L[1;19r[1;1H[34m# exists.[m[19;58H[K[19;58H3,1[11C22%[1;1H[?25h[?25l[1;18r[1;1H[L[1;19r[1;1H[34m# This file is not read by bash(1), if ~/.bash_profile or ~/.bash_login[m[19;58H[K[19;58H2,1[11C11%[1;1H[?25h[?25l[1;18r[1;1H[L[1;19r[1;1H[34m# ~/.profile: executed by the command interpreter for login shells.[m[19;58H[K[19;58H1,1[11CTop[1;1H[?25h[?25l[19;58H2[2;1H[?25h[?25l[1;18r[1;1H[9M[1;19r[10;1H[34m# set PATH so it includes user's private bin if it exists[m
+[38;5;130mif [[m [38;5;130m-d[m [38;5;130m"[m[35m$HOME[m[31m/bin[m[38;5;130m"[m [38;5;130m][m [38;5;130m;[m [38;5;130mthen[m
+    [35mPATH[m[38;5;130m="[m[35m$HOME[m[31m/bin:[m[35m$PATH[m[38;5;130m"
+fi[m
+
+[34m# set PATH so it includes user's private bin if it exists[m
+[38;5;130mif [[m [38;5;130m-d[m [38;5;130m"[m[35m$HOME[m[31m/.local/bin[m[38;5;130m"[m [38;5;130m][m [38;5;130m;[m [38;5;130mthen[m
+    [35mPATH[m[38;5;130m="[m[35m$HOME[m[31m/.local/bin:[m[35m$PATH[m[38;5;130m"
+fi[m[19;58H[K[19;58H27,1[10CBot[18;1H[?25h[?25l
+[1m-- INSERT --[m[19;58H[K[19;58H28,1[10CBot[1;18r[18;1H
+[1;19r[19;58H[K[19;58H28,1[10CBot[18;1H[?25h[?25l[1;18r[18;1H
+[1;19r[19;58H[K[19;58H29,1[10CBot[18;1H[?25h[?25ls[19;61H2[18;2H[?25h[?25ly[19;61H3[18;3H[?25h[?25ls[19;61H4[18;4H[?25h[?25lt[19;61H5[18;5H[?25h[?25le[19;61H6[18;6H[?25h[?25lm[19;61H7[18;7H[?25h[?25lc[19;61H8[18;8H[?25h[?25lt[19;61H9[18;9H[?25h[?25ll[19;61H10[18;10H[?25h[?25l[19;62H1[18;11H[?25h[?25ls[19;62H2[18;12H[?25h[?25lt[19;62H3[18;13H[?25h[?25la[19;62H4[18;14H[?25h[?25lr[19;62H5[18;15H[?25h[?25lt[19;62H6[18;16H[?25h[?25l[19;62H7[18;17H[?25h[?25ld[19;62H8[18;18H[?25h[?25l[38;5;130mdo[m[19;62H9[18;19H[?25h[?25ldoc[19;61H20[18;20H[?25h[?25lk[19;62H1[18;21H[?25h[?25le[19;62H2[18;22H[?25h[?25lr[19;62H3[18;23H[?25h[?25l[19;62H2[18;22H[?25h[?25l[19;62H1[18;21H[?25h[?25l[19;62H0[18;20H[?25h[19;1H[K[18;19H[?25l[19;58H29,19[9CBot[18;19H[?25h[?25l
+[1m-- INSERT --[m[19;58H[K[19;58H30,1[10CBot[1;18r[18;1H
+[1;19r[19;58H[K[19;58H30,1[10CBot[18;1H[?25h[?25lo[19;61H2[18;2H[?25h[?25l[18;1H[K[19;61H1[18;1H[?25h[?25l[1;18r[18;1H
+[1;19r[19;58H[K[19;58H31,1[10CBot[18;1H[?25h[?25l[1;18r[18;1H
+[1;19r[19;58H[K[19;58H32,1[10CBot[18;1H[?25h[?25l[19;59H1[17;1H[?25h[?25l[19;59H0[16;1H[?25h[?25l[19;58H29[15;1H[?25h[?25l[19;61H2[15;2H[?25h[?25l[19;61H3[15;3H[?25h[?25l[19;61H4[15;4H[?25h[?25l[19;61H5[15;5H[?25h[?25l[19;61H6[15;6H[?25h[?25l[19;61H7[15;7H[?25h[?25l[19;61H8[15;8H[?25h[?25l[19;61H9[15;9H[?25h[?25l[19;61H10[15;10H[?25h[?25l[19;62H1[15;11H[?25h[?25l[19;62H2[15;12H[?25h[?25l[19;62H3[15;13H[?25h[?25l[19;62H4[15;14H[?25h[?25l[19;62H5[15;15H[?25h[?25l[19;62H6[15;16H[?25h[?25l docker[15;22H[K[19;62H5[15;15H[?25h[?25l docker[15;21H[K[19;62H4[15;14H[?25h[?25l docker[15;20H[K[19;62H3[15;13H[?25h[?25l docker[15;19H[K[19;62H2[15;12H[?25h[?25l docker[15;18H[K[19;62H1[15;11H[?25h[?25le docker[19;62H2[15;12H[?25h[?25ln docker[19;62H3[15;13H[?25h[?25la docker[19;62H4[15;14H[?25h[?25lb docker[19;62H5[15;15H[?25h[?25ll docker[19;62H6[15;16H[?25h[?25le docker[19;62H7[15;17H[?25h[?25l docker[15;23H[K[19;62H6[15;16H[?25h[?25l docker[15;22H[K[19;62H5[15;15H[?25h[?25l docker[15;21H[K[19;62H4[15;14H[?25h[?25l docker[15;20H[K[19;62H3[15;13H[?25h[?25l docker[15;19H[K[19;62H2[15;12H[?25h[?25l docker[15;18H[K[19;62H1[15;11H[?25h[19;1H[K[15;10H[?25l[19;58H29,10[9CBot[15;10H[?25h[?25l[15;18r[18;1H
+[1;19r[18;1H[94m~                                                                          [m[19;58H[K[19;58H29,0-1[8CBot[15;1H[?25h[?25l[15;18r[18;1H
+[1;19r[18;1H[94m~                                                                          [m[19;58H[K[19;58H29,0-1[8CBot[15;1H[?25h[?25l[15;18r[18;1H
+[1;19r[18;1H[94m~                                                                          [m[19;58H[K[19;58H29,0-1[8CBot[15;1H[?25h[?25l[94m~                                                                          [m[19;59H8[14;1H[?25h[?25l[94m~                                                                          [m[19;59H7,1  [13;1H[?25h[?25l[19;58H[K[19;1H:[?2004h[?25hq![?25l[?2004l[23;2t[23;1t[19;1H[K[19;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;dmanakov@NOTEBOOK-k0zFS5: ~[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~[00m$ vim[K[K[Kecho $SHELL
+/bin/bash
+]0;dmanakov@NOTEBOOK-k0zFS5: ~[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~[00m$ vim .bashrc
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;19r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[19;1H".bashrc" 117L, 3771C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[34m# ~/.bashrc: executed by bash(1) for non-login shells.
+# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
+# for examples
+
+# If not running interactively, don't do anything[m
+[38;5;130mcase[m [35m$-[m [38;5;130min[m
+    *i*[38;5;130m)[m [38;5;130m;;[m[8;7H*[38;5;130m)[m [38;5;130mreturn;;
+esac[m
+
+[34m# don't put duplicate lines or lines starting with space in the history.
+# See bash(1) for more options[m
+[36mHISTCONTROL[m=ignoreboth
+
+[34m# append to the history file, don't overwrite it[m
+shopt [35m-s[m histappend
+
+[34m# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)[m[19;58H1,1[11CTop[1;1H[?25h[?25l[27m[23m[29m[m[H[2J[1;1H[34m# You may want to put all your additions into a separate file like
+# ~/.bash_aliases, instead of adding them here directly.
+# See /usr/share/doc/bash-doc/examples in the bash-doc package.[m
+
+[38;5;130mif [[m [38;5;130m-f[m ~/.bash_aliases [38;5;130m];[m [38;5;130mthen
+[m   [38;5;130m . [m~/.bash_aliases
+[38;5;130mfi[m
+
+[34m# enable programmable completion features (you don't need to enable
+# this, if it's already enabled in /etc/bash.bashrc and /etc/profile
+# sources /etc/bash.bashrc).[m
+[38;5;130mif ![m shopt [35m-oq[m posix[38;5;130m;[m [38;5;130mthen
+[m  [38;5;130mif [[m [38;5;130m-f[m /usr/share/bash-completion/bash_completion [38;5;130m];[m [38;5;130mthen
+[m   [38;5;130m . [m/usr/share/bash-completion/bash_completion
+  [38;5;130melif[m [38;5;130m[[m [38;5;130m-f[m /etc/bash_completion [38;5;130m];[m [38;5;130mthen
+[m   [38;5;130m . [m/etc/bash_completion
+  [38;5;130mfi
+fi[m[19;58H117,1[9CBot[18;1H[?25h[?25l[19;60H6[17;1H[?25h[?25l[19;60H5[16;1H[?25h[?25l[19;60H4[15;1H[?25h[?25l[19;60H3[14;1H[?25h[?25l[19;60H2[13;1H[?25h[?25l[19;60H1[12;1H[?25h[?25l[19;60H0[11;1H[?25h[?25l[19;59H09[10;1H[?25h[?25l[19;60H8[9;1H[?25h[?25l[19;60H7,0-1[8;1H[?25h[?25l[19;60H6,1  [7;1H[?25h[?25l[19;60H5[6;1H[?25h[?25l[19;60H4[5;1H[?25h[?25l[19;60H3,0-1[4;1H[?25h[?25l[19;60H2,1  [3;1H[?25h[?25l[19;60H1[2;1H[?25h[?25l[19;60H0[1;1H[?25h[?25l[1;18r[1;1H[L[1;19r[1;1H[34m# Alias definitions.[m[19;58H[K[19;58H99,1[10C98%[1;1H[?25h[?25l[1;18r[1;1H[L[1;19r[19;58H[K[19;58H98,0-1[8C97%[1;1H[?25h[?25l[1;18r[1;1H[3L[1;19r[1;1H[38;5;130malias [m[36malert[m[38;5;130m='[m[31mnotify-send --urgency=low -i "$([ $? = 0 ] && echo terminal |||[2;1H echo error)" "$(history|tail -n1|sed -e [m[38;5;130m'[m[35m\'[m[38;5;130m'[m[31ms/^\s*[0-9]\+\s*//;s/[;&|]\s*aa[3;1Hlert$//[m[38;5;130m'[m[35m\'[m[38;5;130m'[m[31m)"[m[38;5;130m'[m[19;58H[K[19;58H97,1[10C95%[1;1H[?25h[?25l[1;18r[1;1H[L[1;19r[1;1H[34m#   sleep 10; alert[m[19;58H[K[19;58H96,1[10C94%[1;1H[?25h[?25l[1;18r[1;1H[L[1;19r[1;1H[34m# Add an "alert" alias for long running commands.  Use like so:[m[19;58H[K[19;58H95,1[10C93%[1;1H[?25h[?25l[1;18r[1;1H[L[1;19r[19;58H[K[19;58H94,0-1[8C92%[1;1H[?25h[?25l[1;18r[1;1H[L[1;19r[1;1H[38;5;130malias[m [36ml[m=[38;5;130m'[m[31mls -CF[m[38;5;130m'[m[19;58H[K[19;58H93,1[10C91%[1;1H[?25h[?25l[1;18r[1;1H[L[1;19r[1;1H[38;5;130malias [m[36mla[m[38;5;130m='[m[31mls -A[m[38;5;130m'[m[19;58H[K[19;58H92,1[10C90%[1;1H[?25h[?25l[1;18r[1;1H[L[1;19r[1;1H[38;5;130malias [m[36mll[m[38;5;130m='[m[31mls -alF[m[38;5;130m'[m[19;58H[K[19;58H91,1[10C89%[1;1H[?25h[?25l[1;18r[1;1H[L[1;19r[1;1H[34m# some more ls aliases[m[19;58H[K[19;58H90,1[10C88%[1;1H[?25h[?25l[1;18r[1;1H[L[1;19r[19;58H[K[19;58H89,0-1[8C87%[1;1H[?25h[?25l[1;18r[1;1H[2L[1;19r[1;1H[34m#export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus==[2;1H01:quote=01'[m[19;58H[K[19;58H88,1[10C85%[1;1H[?25h[?25l[1;18r[1;1H[L[1;19r[1;1H[34m# colored GCC warnings and errors[m[19;58H[K[19;58H87,1[10C84%[1;1H[?25h[?25l[1;18r[1;1H[L[1;19r[19;58H[K[19;58H86,0-1[8C83%[1;1H[?25h[?25l[1;18r[1;1H[L[1;19r[1;1H[38;5;130mfi[m[19;58H[K[19;58H85,1[10C82%[1;1H[?25h[?25l[1;18r[1;1H[L[1;19r[1;5H[38;5;130malias [m[36megrep[m[38;5;130m='[m[31megrep --color=auto[m[38;5;130m'[m[19;58H[K[19;58H84,1[10C81%[1;1H[?25h[?25l[1;18r[1;1H[L[1;19r[1;5H[38;5;130malias [m[36mfgrep[m[38;5;130m='[m[31mfgrep --color=auto[m[38;5;130m'[m[19;58H[K[19;58H83,1[10C80%[1;1H[?25h[?25l[1;18r[1;1H[L[1;19r[1;5H[38;5;130malias [m[36mgrep[m[38;5;130m='[m[31mgrep --color=auto[m[38;5;130m'[m[17;1H[94m@                                                                          [18;1H@                                                                          [m[19;58H[K[19;58H82,1[10C79%[1;1H[?25h[?25l[1;18r[1;1H[L[1;19r[19;58H[K[19;58H81,0-1[8C79%[1;1H[?25h[?25l[1;18r[1;1H[L[1;19r[1;5H[34m#alias vdir='vdir --color=auto'[m[19;58H[K[19;58H80,1[10C79%[1;1H[?25h[?25l[1;18r[1;1H[L[1;19r[1;5H[34m#alias dir='dir --color=auto'[m[19;58H[K[19;58H79,1[10C78%[1;1H[?25h[?25l[1;18r[1;1H[L[1;19r[1;5H[38;5;130malias [m[36mls[m[38;5;130m='[m[31mls --color=auto[m[38;5;130m'[m[19;58H[K[19;58H78,1[10C77%[1;1H[?25h[?25l[1;18r[1;1H[2L[1;19r[1;5H[38;5;130mtest[m [38;5;130m-r[m ~/.dircolors [38;5;130m&&[m [38;5;130meval[m [38;5;130m"[m[35m$([m[35mdircolors -b ~/.dircolors[m[35m)[m[38;5;130m"[m [38;5;130m||[m [38;5;130meval[m [38;5;130m"[m[35m$(([m[2;1H[35mdircolors -b[m[35m)[m[38;5;130m"[m[19;58H[K[19;58H77,1[10C75%[1;1H[?25h[?25l[1;18r[1;1H[L[1;19r[1;1H[38;5;130mif [[m [38;5;130m-x[m /usr/bin/dircolors [38;5;130m];[m [38;5;130mthen[m[19;58H[K[19;58H76,1[10C74%[1;1H[?25h[?25l[1;18r[1;1H[L[1;19r[1;1H[34m# enable color support of ls and also add handy aliases[m[19;58H[K[19;58H75,1[10C73%[1;1H[?25h[?25l[1;18r[1;1H[L[1;19r[19;58H[K[19;58H74,0-1[8C72%[1;1H[?25h[?25l[1;18r[1;1H[L[1;19r[1;1H[38;5;130mesac[m[19;58H[K[19;58H73,1[10C71%[1;1H[?25h[?25l[1;18r[1;1H[L[1;19r[1;5H[38;5;130m;;[m[18;1H[94m@                                                                          [m[19;58H[K[19;58H72,1[10C70%[1;1H[?25h[?25l[19;59H3[2;1H[?25h[?25l[19;59H4,0-1[3;1H[?25h[?25l[19;59H5,1  [4;1H[?25h[?25l[19;59H6[5;1H[?25h[?25l[19;59H7[6;1H[?25h[?25l[19;59H8[8;1H[?25h[?25l[19;59H9[9;1H[?25h[?25l[19;58H80[10;1H[?25h[?25l[19;59H1,0-1[11;1H[?25h[?25l[19;59H2,1  [12;1H[?25h[?25l[19;59H3[13;1H[?25h[?25l[19;59H4[14;1H[?25h[?25l[19;59H5[15;1H[?25h[?25l[19;59H6,0-1[16;1H[?25h[?25l[19;59H7,1  [17;1H[?25h[?25l[1;18r[18;1H
+[1;19r[17;1H[34m#export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus==[18;1H01:quote=01'[m[19;58H[K[19;58H88,1[10C71%[17;1H[?25h[?25l[1;18r[18;1H
+[1;19r[19;58H[K[19;58H89,0-1[8C72%[18;1H[?25h[?25l[1;18r[18;1H
+[1;19r[18;1H[34m# some more ls aliases[m[19;58H[K[19;58H90,1[10C73%[18;1H[?25h[?25l[1;18r[18;1H
+[1;19r[18;1H[38;5;130malias [m[36mll[m[38;5;130m='[m[31mls -alF[m[38;5;130m'[m[19;58H[K[19;58H91,1[10C74%[18;1H[?25h[?25l[1;18r[18;1H
+[1;19r[18;1H[38;5;130malias [m[36mla[m[38;5;130m='[m[31mls -A[m[38;5;130m'[m[19;58H[K[19;58H92,1[10C75%[18;1H[?25h[?25l[1;18r[1;1H[2M[1;19r[17;1H[38;5;130malias[m [36ml[m=[38;5;130m'[m[31mls -CF[m[38;5;130m'[m[19;58H[K[19;58H93,1[10C77%[17;1H[?25h[?25l[19;59H4,0-1[18;1H[?25h[?25l[1;18r[18;1H
+[1;19r[18;1H[34m# Add an "alert" alias for long running commands.  Use like so:[m[19;58H[K[19;58H95,1[10C78%[18;1H[?25h[?25l[1;18r[18;1H
+[1;19r[18;1H[34m#   sleep 10; alert[m[19;58H[K[19;58H96,1[10C79%[18;1H[?25h[?25l[1;18r[1;1H[3M[1;19r[16;1H[38;5;130malias [m[36malert[m[38;5;130m='[m[31mnotify-send --urgency=low -i "$([ $? = 0 ] && echo terminal |||[17;1H echo error)" "$(history|tail -n1|sed -e [m[38;5;130m'[m[35m\'[m[38;5;130m'[m[31ms/^\s*[0-9]\+\s*//;s/[;&|]\s*aa[18;1Hlert$//[m[38;5;130m'[m[35m\'[m[38;5;130m'[m[31m)"[m[38;5;130m'[m[19;58H[K[19;58H97,1[10C80%[16;1H[?25h[?25l[1;18r[18;1H
+[1;19r[19;58H[K[19;58H98,0-1[8C81%[18;1H[?25h[?25l[1;18r[18;1H
+[1;19r[18;1H[34m# Alias definitions.[m[19;58H[K[19;58H99,1[10C82%[18;1H[?25h[?25l[1;18r[18;1H
+[1;19r[18;1H[34m# You may want to put all your additions into a separate file like[m[19;58H[K[19;58H100,1[9C83%[18;1H[?25h[?25l[1;18r[18;1H
+[1;19r[18;1H[34m# ~/.bash_aliases, instead of adding them here directly.[m[19;58H[K[19;58H101,1[9C84%[18;1H[?25h[?25l[19;60H0[17;1H[?25h[?25l[19;58H99,1 [16;1H[?25h[?25l[19;59H8,0-1[15;1H[?25h[?25l[19;59H7,1  [12;1H[?25h[?25l[19;59H6[11;1H[?25h[?25l[19;59H5[10;1H[?25h[?25l[19;59H4,0-1[9;1H[?25h[?25l[19;59H3,1  [8;1H[?25h[?25l[19;59H2[7;1H[?25h[?25l[19;59H1[6;1H[?25h[?25l[19;59H2[7;1H[?25h[?25l[19;59H3[8;1H[?25h[?25l[19;59H4,0-1[9;1H[?25h[?25l[19;59H3,1  [8;1H[?25h[?25l[19;59H2[7;1H[?25h[?25l[19;59H1[6;1H[?25h[?25l[19;61H2[6;2H[?25h[?25l[19;58H[K[19;1H:[?2004h[?25hq![?25l[?2004l[23;2t[23;1t[19;1H[K[19;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;dmanakov@NOTEBOOK-k0zFS5: ~[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~[00m$ cd -
+/home/dmanakov/caos/01-bash
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ [H[2J]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ ls
+bash_history  [0m[01;34mexample_0[0m  [01;34mexample_1_simple_c[0m  [01;34mexample_2[0m
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ cd exp[Kample_
+bash: cd: example_: No such file or directory
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ cd example_0
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ ls
+[0m[01;32mrun.sh[0m  typescript
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ rm *
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ ls
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ nao[Kna[Ko
+[?2004h[?1049h[22;0;0t[1;19r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J(B[0;7m  GNU nano 4.8                    New Buffer                               [1;74H(B[m[17;13H(B[0;7m[ Welcome to nano.  For basic help, type Ctrl+G. ](B[m[18d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify[19d(B[0;7m^X(B[m Exit[19;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell[17d[2d[39;49m(B[m[?12l[?25h[?25l[1;66H(B[0;7mModified(B[m[2da[?12l[?25h[?25ls[?12l[?25h[?25l;[?12l[?25h[?25ll[?12l[?25h[?25lk[?12l[?25h[?25ld[?12l[?25h[?25lj[?12l[?25h[?25la[?12l[?25h[?25llk[?12l[?25h[?25ld[?12l[?25h[?25ld[?12l[?25h[?25la[?12l[?25h[?25l[17d(B[0;7mSave modified buffer?                                                      [18;1H Y(B[m Yes[K[19d(B[0;7m N(B[m No  [19;16H (B[0;7m^C(B[m Cancel[K[17;23H[?12l[?25h[?25l[J[19d[?12l[?25h[19;1H[?1049l[23;0;0t[?1l>[?2004l]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ vim run.sh[K[K[K[K[K[K[K[K[K[Ktmux
+[?1049h[22;0;0t[?1h=[H[2J[?12l[?25h[?1000l[?1002l[?1006l[?1005l[c(B[m[?12;25h[?12l[?25h[?1003l[?1006l[?2004l[1;1H[1;19r]112[1;1H[?25l[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[30m[42m
+[0] 0:bash*                               "NOTEBOOK-k0zFS5" 09:31 07-Sep-22(B[m[1;1H[?12l[?25h(B[m[?12;25h[?12l[?25h[?1003l[?1006l[?2004l[1;1H[1;19r[?25l[1;1H[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[30m[42m
+[0] 0:bash*                               "NOTEBOOK-k0zFS5" 09:31 07-Sep-22(B[m[1;1H[?12l[?25hWelcome to Ubuntu 20.04 LTS (GNU/Linux 5.10.102.1-microsoft-standard-WSL2 x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+
+39 updates can be applied immediately.
+9 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable[13;1H/etc/update-motd.d/90-updates-available: 7: /usr/share/update-notifier/notify-updates-outdated: not found
+run-parts: /etc/update-motd.d/90-updates-available exited with return code 127
+/etc/update-motd.d/91-release-upgrade: 4: lsb_release: not found
+[1;18r[18;1H
+[1;19r[18;1H[1;18r[18;1H
+[1;19r[18;1H[1;18r[18;1H
+[AThis message is shown once a day. To disable it please create the[1;19r[18;1H/home/dmanakov/.hushlogin [1;18r[18;1H
+[17;27Hfile.[1;19r[18;1Hdmanakov@NOTEBOOK-k0zFS5:~/caos/01-bash/example_0$ clear[1;18r[18;1H
+[1;19r[18;1H[1;18r[2;18r[17S[1;1H[K[1;19r[1;1Hdmanakov@NOTEBOOK-k0zFS5:~/caos/01-bash/example_0$ [10;1H──────────────────────────────────────[32m─────────────────────────────────────[?25l(B[m[1;1Hdmanakov@NOTEBOOK-k0zFS5:~/caos/01-bash/example_0$ [K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[2B[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[30m[42m
+[0] 0:bash*                               "NOTEBOOK-k0zFS5" 09:31 07-Sep-22(B[m[11;1H[?12l[?25h[H[Kdmanakov@NOTEBOOK-k0zFS5:~/caos/01-bash/example_0$ [11;1Hdmanakov@NOTEBOOK-k0zFS5:~/caos/01-bash/example_0$ [1;19r(B[m[?1l>[H[2J]112[?12l[?25h[?1000l[?1002l[?1006l[?1005l[?1049l[23;0;0t[detached (from session 0)]
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ tmux
+[?1049h[22;0;0t[?1h=[H[2J[?12l[?25h[?1000l[?1002l[?1006l[?1005l[c(B[m[?12;25h[?12l[?25h[?1003l[?1006l[?2004l[1;1H[1;19r]112[1;1H[?25l[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[30m[42m
+[1] 0:bash*                               "NOTEBOOK-k0zFS5" 09:31 07-Sep-22(B[m[1;1H[?12l[?25h(B[m[?12;25h[?12l[?25h[?1003l[?1006l[?2004l[1;1H[1;19r[1;1H[?25l[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[30m[42m
+[1] 0:bash*                               "NOTEBOOK-k0zFS5" 09:31 07-Sep-22(B[m[1;1H[?12l[?25hdmanakov@NOTEBOOK-k0zFS5:~/caos/01-bash/example_0$ tmux [K[K[K[K[K[14D│[2;38H│[3;38H│[4;38H│[5;38H│[6;38H│[7;38H│[8;38H│[9;38H│[10;38H│[32m[11;38H│[12;38H│[13;38H│[14;38H│[15;38H│[16;38H│[17;38H│[18;38H│[?25l(B[m[Hsh/example_0$      [18X[2;37H[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K[1;39H[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[30m[42m
+[1] 0:bash*                               "NOTEBOOK-k0zFS5" 09:31 07-Sep-22(B[m[1;39H[?12l[?25h[1K[Hdmanakov@NOTEBOOK-k0zFS5:~/caos/01-ba
+sh/example_0$ [1;39Hdmanakov@NOTEBOOK-k0zFS5:~/caos/01-ba[2;39Hsh/example_0$ [32m[1;38H│[2;38H│[3;38H│[4;38H│[5;38H│[6;38H│[7;38H│[8;38H│[9;38H│[10;38H│[39m[11;38H│[12;38H│[13;38H│[14;38H│[15;38H│[16;38H│[17;38H│[18;38H│(B[m[2;15Hl
+s
+dmanakov@NOTEBOOK-k0zFS5:~/caos/01-ba
+sh/example_0$ ls
+dmanakov@NOTEBOOK-k0zFS5:~/caos/01-ba
+sh/example_0$ [?25l[30m[42m[19;1H[1] 0:bash*                               "NOTEBOOK-k0zFS5" 09:32 07-Sep-22(B[m[7;15H[?12l[?25h[1;18r[2;37H[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K[1d[1K[Hdmanakov@NOTEBOOK-k0zFS5:~/caos/01-ba
+sh/example_0$ [1;19r[2;15Hls
+dmanakov@NOTEBOOK-k0zFS5:~/caos/01-ba
+sh/example_0$ vim run.sh
+[?25l[1;37H[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K[5;1H[?12l[?25h[1;18r[2;37H[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K[1d[1K[18;1H<un.sh" [New File][1;19r[18;19H[?25l[2;1H[34m[1m~                                    
+~                                    
+~                                    
+~                                    
+~                                    
+~                                    
+~                                    
+~                                    
+~                                    
+~                                    
+~                                    
+~                                    
+~                                    
+~                                    
+~                                    
+~                                    [18;20H(B[m0,0-1[9CAll[H[?12l[?25h[?25l[30m[42m[19d[1] 0:vim*                                "NOTEBOOK-k0zFS5" 09:32 07-Sep-22(B[m[1;1H[?12l[?25h[18d[1m-- INSERT --(B[m[C[24X[6C0,1[11CAll[He[18;20H1,2[1;2Hc[18;22H3[1;3Hh[18;22H4[1;4H[H[33mecho[18;22H[39m5[1;5H[31m [18;22H[39m6[1;6H[31m1[18;22H[39m7[1;7H[31m2[18;22H[39m8[1;8H[31m3[18;22H[39m9[1;9H[31m2[18;22H[39m10[1;10H[31m1[18;23H[39m1[1;11H[31m3[18;23H[39m2[1;12H[18;37H[1K[?25l[19C1,11[10CAll[17D[18X:[?12l[?25hw"run.sh"[?25l<] 1L, 12C written 1,11[10CAll[17D[18X1,11[10CAll[1;11H[?12l[?25h[27C│[2;38H│[3;38H│[4;38H│[5;38H│[6;38H│[7;38H│[8;38H│[9;38H│[10;38H│[32m[11;38H│[12;38H│[13;38H│[14;38H│[15;38H│[16;38H│[17;38H│[18;38H│(B[m[2;53H[?25l[30m[42m[19;1H[1] 0:bash*                               "NOTEBOOK-k0zFS5" 09:32 07-Sep-22(B[m[2;53H[?12l[?25hls[3;39Hrun.sh[4;39Hdmanakov@NOTEBOOK-k0zFS5:~/caos/01-ba[5;39Hsh/example_0$ cat [32m[1;38H│[2;38H│[3;38H│[4;38H│[5;38H│[6;38H│[7;38H│[8;38H│[9;38H│[10;38H│[39m[11;38H│[12;38H│[13;38H│[14;38H│[15;38H│[16;38H│[17;38H│[18;38H│(B[m[1;11H[?25l[30m[42m[19;1H[1] 0:vim*                                "NOTEBOOK-k0zFS5" 09:32 07-Sep-22(B[m[1;11H[?12l[?25h[18;37H[1K:q![36C[1K[5;1H[32m[1;38H│[2;38H│[3;38H│[4;38H│[5;38H│[6;38H│[7;38H│[8;38H│[9;38H│[10;38H│[39m[11;38H│[12;38H│[13;38H│[14;38H│[15;38H│[16;38H│[17;38H│[18;38H│[?25l(B[m[Hdmanakov@NOTEBOOK-k0zFS5:~/caos/01-ba[2;37H[1Ksh/example_0$ ls
+dmanakov@NOTEBOOK-k0zFS5:~/caos/01-ba
+sh/example_0$ vim run.sh[13X[5;37H[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K[1;39Hdmanakov@NOTEBOOK-k0zFS5:~/caos/01-ba[2;39Hsh/example_0$ ls[K[3;39Hrun.sh[K[4;39Hdmanakov@NOTEBOOK-k0zFS5:~/caos/01-ba[5;39Hsh/example_0$ cat [K[6;39H[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[30m[42m
+[1] 0:vim*                                "NOTEBOOK-k0zFS5" 09:32 07-Sep-22(B[m[5;1H[?12l[?25hdmanakov@NOTEBOOK-k0zFS5:~/caos/01-ba
+sh/example_0$ [?25l[30m[42m[19;1H[1] 0:bash*                               "NOTEBOOK-k0zFS5" 09:32 07-Sep-22(B[m[6;15H[?12l[?25hrm run.sh 
+dmanakov@NOTEBOOK-k0zFS5:~/caos/01-ba
+sh/example_0$ [1;18r[2;37H[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K[1d[1K[Hdmanakov@NOTEBOOK-k0zFS5:~/caos/01-ba
+sh/example_0$ [1;19r[2;15Hls
+dmanakov@NOTEBOOK-k0zFS5:~/caos/01-ba
+sh/example_0$ ls
+dmanakov@NOTEBOOK-k0zFS5:~/caos/01-ba
+sh/example_0$ nano run[C[C[C[C[C[C[C.sh
+[?25l[1;37H[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K[H[?2004h[1;18r[2;37H[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K
+[1K[1d[1K[16;13H[7m[ New File ][1;19r[16;25H(B[m[H[7m  GNU nano 4.8   run.sh              [17;1H^G(B[m Get Help [7m^O(B[m Write Out[7m^W(B[m Where Is
+[7m^X(B[m Exit     [7m^R(B[m Read File[7m^\(B[m Replace[16;1H[2d[?12l[?25h[?25l[30m[42m[19d[1] 0:nano*                               "NOTEBOOK-k0zFS5" 09:33 07-Sep-22(B[m[2;1H[?12l[?25h[1;28H[7mModified[?25l(B[m
+e[?12l[?25hch[?25l[34m[1mecho[?12l[?25h(B[m[42m (B[m H[?25l[?12l[?25hel[?25ll[?12l[?25ho[?25l,[?12l[?25h[42m [?25l(B[m[?12l[?25h CAOUS  S[?25l[32m![?12l[?25h(B[m[?25l[17;13H[7mM-D(B[m DOS Form[7mM-A(B[m Append [18;2H[7mC(B[m Cancel   [7mM-M(B[m Mac Forma[12X[16;1H[7mFile Name to Write: run.sh           [11D[?12l[?25h(B[m[?25l[11G[1K [7m[ Writing... ](B[m[12X[1;28H[7m        [16;11H[ Wrote 1 line ][17;13H(B[m[7m^O(B[m Write Out[7m^W(B[m Where Is[18;2H[7mX(B[m Exit     [7m^R(B[m Read File[7m^\(B[m Replace[2;18H[?12l[?25h[1;38H│[2;38H│[3;38H│[4;38H│[5;38H│[6;38H│[7;38H│[8;38H│[9;38H│[10;38H│[32m[11;38H│[12;38H│[13;38H│[14;38H│[15;38H│[16;38H│[17;38H│[18;38H│(B[m[5;57H[?2004l[?25l[30m[42m[19;1H[1] 0:bash*                               "NOTEBOOK-k0zFS5" 09:33 07-Sep-22(B[m[5;57H[?12l[?25h[K[K[K[K[1;18r[2;39H[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1d[Kdmanakov@NOTEBOOK-k0zFS5:~/caos/01-ba[2;39Hsh/example_0$ [1;19r[2;53Hls[3;39Hrun.sh[4;39Hdmanakov@NOTEBOOK-k0zFS5:~/caos/01-ba[5;39Hsh/example_0$ cat run.sh [6;39Hecho Hello, CAOS![7;39Hdmanakov@NOTEBOOK-k0zFS5:~/caos/01-ba[8;39Hsh/example_0$ cat[9;39H[?25l[30m[42m[19;1H[1] 0:cat*                                "NOTEBOOK-k0zFS5" 09:33 07-Sep-22(B[m[9;39H[?12l[?25hfadsfds[10;39Hfadsfds[11;39H123[12;39H123[13;39Hasdafasafasf[14;39Hasdafasafasf[15;39Hdmanakov@NOTEBOOK-k0zFS5:~/caos/01-ba[16;39Hsh/example_0$ [?25l[30m[42m[19;1H[1] 0:bash*                               "NOTEBOOK-k0zFS5" 09:33 07-Sep-22(B[m[16;53H[?12l[?25h[?25l[30m[42m[19;1H[1] 0:bash*                               "NOTEBOOK-k0zFS5" 09:34 07-Sep-22(B[m[16;53H[?12l[?25hcat [?25l[30m[42m[19;1H[1] 0:bash*                               "NOTEBOOK-k0zFS5" 09:35 07-Sep-22(B[m[16;57H[?12l[?25hrun.sh [1;18r[2;39H[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1d[Kdmanakov@NOTEBOOK-k0zFS5:~/caos/01-ba[2;39Hsh/example_0$ cat run.sh [1;19r[2;64H[3;39Hecho Hello, CAOS![4;39Hdmanakov@NOTEBOOK-k0zFS5:~/caos/01-ba[5;39Hsh/example_0$ bash run.sh [6;39HHello, CAOS![7;39Hdmanakov@NOTEBOOK-k0zFS5:~/caos/01-ba[8;39Hsh/example_0$ /[Kpwd[9;39H/home/dmanakov/caos/01-bash/example_0[10;39Hdmanakov@NOTEBOOK-k0zFS5:~/caos/01-ba[11;39Hsh/example_0$ /home/dmanakov/co[K[Ka[Kcaos/01-[12;39Hbash/example_0/r[?25l[30m[42m[19;1H[1] 0:bash*                               "NOTEBOOK-k0zFS5" 09:36 07-Sep-22(B[m[12;55H[?12l[?25hun.sj[Kh[13;39H-bash: /home/dmanakov/caos/01-bash/ex[14;39Hample_0/run.sh: Permission denied[15;39Hdmanakov@NOTEBOOK-k0zFS5:~/caos/01-ba[16;39Hsh/example_0$ logout[17;39H[?25l[7m[H  GNU nano 4.8   run.sh              (B[m[K[34m[1m
+echo(B[m Hello, CAOS[32m![39m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[16;10H[1K[7m[C[ Wrote 1 line ](B[m[K[7m
+^G(B[m Get Help [7m^O(B[m Write Out[7m^W(B[m Where Is[K[7m
+^X(B[m Exit     [7m^R(B[m Read File[7m^\(B[m Replace[K[30m[42m
+[1] 0:bash*                               "NOTEBOOK-k0zFS5" 09:36 07-Sep-22(B[m[2;18H[?12l[?25h[?2004h[?25l[Hdmanakov@NOTEBOOK-k0zFS5:~/caos/01-ba[K
+sh/example_0$ ls[K
+dmanakov@NOTEBOOK-k0zFS5:~/caos/01-ba[K
+sh/example_0$ ls[K
+dmanakov@NOTEBOOK-k0zFS5:~/caos/01-ba[K
+sh/example_0$ nano run.sh[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[7d[?12l[?25h[?25l[7m[H  GNU nano 4.8   run.sh              (B[m[K[34m[1m
+echo(B[m Hello, CAOS[32m![39m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[16;10H[1K[7m[C[ Wrote 1 line ](B[m[K[7m
+^G(B[m Get Help [7m^O(B[m Write Out[7m^W(B[m Where Is[K[7m
+^X(B[m Exit     [7m^R(B[m Read File[7m^\(B[m Replace[K[2;18H[?12l[?25h[1;18r[2;18r[17S[1;1H[K[7m  GNU nano 4.8   run.sh              [18G      [13Crun.sh                                 [2;1H(B[m[34m[1mecho(B[m Hello, CAOS[32m![17;1H[39m[7m^G(B[m Get Help    [7m^O(B[m Write Out   [7m^W(B[m Where Is    [7m^K(B[m Cut Text    [7m^J(B[m Justify
+[7m^X(B[m Exit[8C[7m^R(B[m Read File   [7m^\(B[m Replace     [7m^U(B[m Paste Text  [7m^T(B[m To Spell[1;19r[16;1H[?25l[2;18H[?12l[?25h[?25l[30m[42m[19;1H[1] 0:nano*                               "NOTEBOOK-k0zFS5" 09:36 07-Sep-22(B[m[2;18H[?12l[?25h[?25l[?12l[?25h[?25l[1;18r[18;1H[K[A[K[1;19r[1;1Hdmanakov@NOTEBOOK-k0zFS5:~/caos/01-ba[K
+sh/example_0$ ls[K
+dmanakov@NOTEBOOK-k0zFS5:~/caos/01-ba[K
+sh/example_0$ ls[K
+dmanakov@NOTEBOOK-k0zFS5:~/caos/01-ba[K
+sh/example_0$ nano run.sh[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[30m[42m
+[1] 0:bash*                               "NOTEBOOK-k0zFS5" 09:36 07-Sep-22(B[m[7;1H[?12l[?25h[?2004ldmanakov@NOTEBOOK-k0zFS5:~/caos/01-bash/example_0$ logout
+[1;19r(B[m[?1l>[H[2J]112[?12l[?25h[?1000l[?1002l[?1006l[?1005l[?1049l[23;0;0t[exited]
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ [H[2J]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ sl[K[Ksl[K[Kls
+run.sh
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ cat run.sh 
+echo Hello, CAOS!
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ /home/dmanakov/d[Kcaos/01-bash/example_0/run.sh
+bash: /home/dmanakov/caos/01-bash/example_0/run.sh: Permission denied
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ ls -l
+total 4
+-rw-rw-r-- 1 dmanakov dmanakov 18 Sep  7 09:33 run.sh
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ stat run.sh 
+  File: run.sh
+  Size: 18        	Blocks: 8          IO Block: 4096   regular file
+Device: 810h/2064d	Inode: 520943      Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/dmanakov)   Gid: ( 1001/dmanakov)
+Access: 2022-09-07 09:33:34.900951100 +0300
+Modify: 2022-09-07 09:33:24.630951100 +0300
+Change: 2022-09-07 09:33:24.630951100 +0300
+ Birth: -
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ ls -l /tmp/
+total 200764
+-rw-r--r--  1 root     root     15476050 Aug 12 10:21 000e8286-0a4a-4515-9d3e-dccd57068380
+-rw-r--r--  1 root     root     13345137 Aug 11 12:39 17607fdd-a62e-443a-a93f-b97c33090d91
+-rw-r--r--  1 root     root     15476050 Aug 18 09:54 23a1bf94-0731-4555-8ffa-ff65096a12ce
+-rw-r--r--  1 root     root     13376391 Aug 18 09:54 394cc25a-1d06-47f7-a7e8-c8bf4fef8599
+-rw-r--r--  1 root     root     13376391 Aug 18 09:54 465ce807-f484-4444-bbff-a37d358738f9
+-rw-r--r--  1 root     root     15475648 Aug 11 12:40 47c20ca4-65c5-4193-9580-df9b2712ed37
+-rw-r--r--  1 root     root     27626564 Aug 18 09:54 5eb4a93a-e06a-452b-9ff1-89261ffd1888
+-rw-r--r--  1 root     root     27626619 Aug 11 12:42 8be47930-88d4-41b7-b25f-015af9e70c86
+-rw-r--r--  1 root     root     27626564 Aug 18 09:54 8f901eaa-7709-4ba9-b8e9-1222e56c0baf
+-rw-r--r--  1 root     root     15476050 Aug 18 09:54 9a445e00-2eca-484d-9cd7-d123fa728885
+-rw-r--r--  1 root     root      4822063 Aug 12 10:20 a9b828bb-b3c1-482a-8700-eebf28600239
+drwxrwxr-x  2 dmanakov dmanakov     4096 Aug 29 12:35 [0m[01;34maaa[0m
+-rw-r--r--  1 root     root      4822063 Aug 18 09:54 b8a310d2-47fa-472b-896a-3961f6923d33
+-rw-r--r--  1 root     root      4822063 Aug 11 12:41 c1902b66-dfe8-4a9f-a3f5-6d42895fe26a
+-rw-r--r--  1 root     root      4822063 Aug 18 09:54 cff12e85-5354-4dc0-8e34-a89229fc0c89
+-rw-rw-r--  1 dmanakov dmanakov       48 Aug 12 01:20 f
+-rw-rw-r--  1 dmanakov dmanakov       10 Aug 12 00:50 fff
+-rw-rw-r--  1 dmanakov dmanakov      389 Aug 18 12:19 fileJ2s19u.html
+-rw-rw-r--  1 dmanakov dmanakov      389 Aug 16 18:11 fileORvto9.html
+drwxrwxr-x  3 dmanakov dmanakov     4096 Aug 11 01:18 [01;34mfoobar[0m
+-rw-rw-r--  1 dmanakov dmanakov    20912 Aug 29 12:30 jbiBQgCgm5Q6gSQ
+drwxrwxr-x  2 dmanakov dmanakov     4096 Aug 18 11:56 [01;34mmnt[0m
+drwxrwxr-x  3 dmanakov dmanakov     4096 Aug 11 00:08 [01;34mpypy[0m
+drwx------  2 root     root         4096 Aug  7 00:40 [01;34mpyright-20182-t0ygTIxRUzQC[0m
+drwx------  2 root     root         4096 Aug 15 23:56 [01;34mpyright-215-Kjhxx5U652Gg[0m
+drwx------  2 root     root         4096 Aug 17 20:55 [01;34mpyright-216-ddlj6o7KKzO8[0m
+drwx------  2 root     root         4096 Aug 17 20:55 [01;34mpyright-216-vOnJ6hL0Boi8[0m
+drwx------  2 root     root         4096 Aug 12 00:51 [01;34mpyright-255-228r3CXbxlTE[0m
+drwx------  2 root     root         4096 Aug 11 17:46 [01;34mpyright-255-B5iIV7V0rJBB[0m
+drwx------  2 root     root         4096 Aug  8 16:41 [01;34mpyright-266-ID1yxRdTtazK[0m
+drwx------  2 root     root         4096 Aug  8 12:10 [01;34mpyright-266-aOsb5uF7gOs9[0m
+drwx------  2 root     root         4096 Aug 23 10:28 [01;34mpyright-285-qLgM5b7YUIsL[0m
+drwx------  2 root     root         4096 Aug 23 10:28 [01;34mpyright-285-qZhMI049KSH2[0m
+drwx------  2 root     root         4096 Aug 15 17:41 [01;34mpyright-329-KrPHJn7Y6h6F[0m
+drwx------  2 root     root         4096 Aug 15 17:41 [01;34mpyright-329-ZCXl7G2GXybi[0m
+drwx------  2 root     root         4096 Aug 11 00:41 [01;34mpyright-3316-66VRUwhPyQmF[0m
+drwx------  2 root     root         4096 Aug 11 00:39 [01;34mpyright-3316-AFWlhVtFVFC6[0m
+drwx------  2 root     root         4096 Aug 18 10:12 [01;34mpyright-357-Z9YooTP92L93[0m
+drwx------  2 root     root         4096 Aug 17 18:27 [01;34mpyright-484-Xj8U25MgsQ8W[0m
+drwx------  2 root     root         4096 Aug 17 18:27 [01;34mpyright-484-vhtaiW66pDYe[0m
+drwx------  2 root     root         4096 Aug 15 17:43 [01;34mpyright-493-C1aP07nT0L0Q[0m
+drwx------  2 root     root         4096 Aug 15 17:43 [01;34mpyright-493-i4xChf5nPv2v[0m
+drwx------  2 root     root         4096 Aug 16 00:00 [01;34mpyright-740-6Xru5VSOCJ3N[0m
+drwx------  2 root     root         4096 Aug 16 10:58 [01;34mpyright-740-SKZLa6Q87dKm[0m
+drwxr-xr-x 11 root     root         4096 Aug 23 10:28 [01;34mpython-languageserver-cancellation[0m
+-rw-rw-r--  1 dmanakov dmanakov       73 Aug 23 10:27 remote-wsl-loc.txt
+drwxrwxr-x  2 dmanakov dmanakov     4096 Sep  1 18:18 [01;34msome_dir[0m
+-rw-rw-r--  1 dmanakov dmanakov       24 Aug 12 00:15 some_file
+drwxrwxr-x  2 dmanakov dmanakov     4096 Aug 12 00:40 [01;34mtmp[0m
+drwx------  2 root     root         4096 Aug  6 00:22 [01;34mtmp0vh8ssl3[0m
+-rw-------  1 dmanakov dmanakov   285222 Aug  9 13:33 tmp_ee8scyt
+-rw-------  1 dmanakov dmanakov   285222 Aug  9 13:33 tmph__6njqi
+-rw-------  1 dmanakov dmanakov   285222 Aug  9 13:33 tmpt_a8gbwd
+-rw-------  1 dmanakov dmanakov   285222 Aug  9 13:33 tmpxcpt6og1
+drwx------  2 dmanakov dmanakov     4096 Sep  7 09:31 [01;34mtmux-1000[0m
+-rw-rw-r--  1 dmanakov dmanakov     1031 Aug 14 19:41 ttt
+-rw-------  1 dmanakov dmanakov     2181 Aug 16 00:00 vscode-distro-env.7gqqrR
+-rw-------  1 dmanakov dmanakov     2164 Aug 15 23:53 vscode-distro-env.Bpo9Op
+-rw-------  1 dmanakov dmanakov     2212 Aug  7 00:38 vscode-distro-env.DbJmGi
+-rw-------  1 root     root         2626 Aug  7 00:34 vscode-distro-env.GMZC6z
+-rw-------  1 dmanakov dmanakov     2495 Aug 18 10:12 vscode-distro-env.GtELvD
+-rw-------  1 dmanakov dmanakov     2472 Aug 17 20:55 vscode-distro-env.NUT4Sl
+-rw-------  1 dmanakov dmanakov     2472 Aug 17 18:27 vscode-distro-env.YvTKMQ
+-rw-------  1 dmanakov dmanakov     2488 Aug 23 10:27 vscode-distro-env.ZIKPov
+-rw-------  1 dmanakov dmanakov     2771 Aug 11 00:38 vscode-distro-env.eqNwB5
+-rw-------  1 dmanakov dmanakov     2212 Aug  7 00:37 vscode-distro-env.lAdA3m
+-rw-------  1 dmanakov dmanakov     2182 Aug 11 17:45 vscode-distro-env.n7U6Cq
+-rw-------  1 dmanakov dmanakov     2208 Aug 15 17:43 vscode-distro-env.vBUQQB
+-rw-------  1 dmanakov dmanakov     2212 Aug  7 00:38 vscode-distro-env.yGevfm
+srwxr-xr-x  1 root     root            0 Aug 15 23:53 [01;35mvscode-git-2b38cc9c86.sock[0m
+srwxr-xr-x  1 root     root            0 Aug 15 17:41 [01;35mvscode-git-628c14c5a9.sock[0m
+srwxr-xr-x  1 root     root            0 Aug 15 17:43 [01;35mvscode-git-70777b431f.sock[0m
+srwxr-xr-x  1 root     root            0 Aug  7 00:38 [01;35mvscode-git-74ccb71e98.sock[0m
+srwxr-xr-x  1 root     root            0 Aug  7 00:39 [01;35mvscode-git-83ba6fc4fc.sock[0m
+srwxr-xr-x  1 root     root            0 Aug 23 10:28 [01;35mvscode-git-a13e2cfe48.sock[0m
+srwxr-xr-x  1 root     root            0 Aug  7 00:38 [01;35mvscode-git-b5be9c8166.sock[0m
+srwxr-xr-x  1 root     root            0 Aug 18 10:12 [01;35mvscode-git-d487459568.sock[0m
+srwxr-xr-x  1 root     root            0 Aug 16 00:00 [01;35mvscode-ipc-07c4dd53-f1d9-42cd-8179-060ac3cef2fe.sock[0m
+srwxr-xr-x  1 root     root            0 Aug  7 00:39 [01;35mvscode-ipc-127018a8-4a9f-48e7-b8e5-6b25dace79b0.sock[0m
+srwxr-xr-x  1 root     root            0 Aug 17 20:55 [01;35mvscode-ipc-1ba9defe-4e33-49f6-815a-43f8194f32a0.sock[0m
+srwxr-xr-x  1 root     root            0 Aug 18 10:12 [01;35mvscode-ipc-272ceb9f-5e2a-4c91-abd0-4ed7b003e636.sock[0m
+srwxr-xr-x  1 root     root            0 Aug 17 20:47 [01;35mvscode-ipc-28544cf1-cc19-4bcb-911d-29715f1238bf.sock[0m
+srwxr-xr-x  1 root     root            0 Aug 15 23:44 [01;35mvscode-ipc-2b022f84-01a2-45a6-b920-5c9a13068729.sock[0m
+srwxr-xr-x  1 root     root            0 Aug 23 10:28 [01;35mvscode-ipc-2d4db46e-7ff5-4aee-885f-5a1b872564e3.sock[0m
+srwxr-xr-x  1 root     root            0 Aug 16 00:00 [01;35mvscode-ipc-3b94479f-ef96-4e68-a2fe-56d0e59e82b0.sock[0m
+srwxr-xr-x  1 root     root            0 Aug 15 17:41 [01;35mvscode-ipc-45766c4b-51d0-48bb-98ab-b85284e8ee2e.sock[0m
+srwxr-xr-x  1 root     root            0 Aug 15 17:43 [01;35mvscode-ipc-49efc18c-cdd6-4a3a-ae41-7493a83bd035.sock[0m
+srwxr-xr-x  1 root     root            0 Aug 15 17:43 [01;35mvscode-ipc-4bd0a61e-1fb7-4cb0-ba86-f380c99b8489.sock[0m
+srwxr-xr-x  1 root     root            0 Aug 17 18:27 [01;35mvscode-ipc-4c7f63c9-a727-4216-bcc2-de9bab6e82a2.sock[0m
+srwxr-xr-x  1 root     root            0 Aug  7 00:38 [01;35mvscode-ipc-57224cb0-866e-4dfa-89da-39e29c3f6cc8.sock[0m
+srwxr-xr-x  1 root     root            0 Aug 17 20:59 [01;35mvscode-ipc-727b6b64-54e2-450e-80bb-b3a17ac7c90c.sock[0m
+srwxr-xr-x  1 root     root            0 Aug 15 23:53 [01;35mvscode-ipc-756ebb66-5374-4bb5-af14-ac13cb45dd0e.sock[0m
+srwxr-xr-x  1 root     root            0 Aug 11 17:46 [01;35mvscode-ipc-7aa69e68-26ad-4f90-9046-70e4070a52d1.sock[0m
+srwxr-xr-x  1 root     root            0 Aug  8 12:10 [01;35mvscode-ipc-8a6c92b4-022b-40f9-80a6-50f744926730.sock[0m
+srwxr-xr-x  1 root     root            0 Aug 11 17:46 [01;35mvscode-ipc-91b1b382-755e-4115-ab6a-713370e9d112.sock[0m
+srwxr-xr-x  1 root     root            0 Aug 16 00:01 [01;35mvscode-ipc-921dc133-280b-4bd1-90fd-bb2925a9b735.sock[0m
+srwxr-xr-x  1 root     root            0 Aug 11 00:38 [01;35mvscode-ipc-b1f27fbe-2f52-433c-b8ed-cc8250cb7107.sock[0m
+srwxr-xr-x  1 root     root            0 Aug 11 00:38 [01;35mvscode-ipc-b608ad32-f2eb-46a7-9263-8b4adb32d81c.sock[0m
+srwxr-xr-x  1 root     root            0 Aug  8 15:34 [01;35mvscode-ipc-b73db746-059d-4cdd-a13b-9273332802e0.sock[0m
+srwxr-xr-x  1 root     root            0 Aug  7 00:38 [01;35mvscode-ipc-bac32a1b-51c3-449e-8bec-7c5de11eaeaa.sock[0m
+srwxr-xr-x  1 root     root            0 Aug  7 00:39 [01;35mvscode-ipc-bea0e0ad-f283-49c1-a4ac-31690e0ed225.sock[0m
+srwxr-xr-x  1 root     root            0 Aug 23 10:28 [01;35mvscode-ipc-d2d91338-8fa5-490c-a825-795fb42d2afb.sock[0m
+srwxr-xr-x  1 root     root            0 Aug 17 20:56 [01;35mvscode-ipc-de2e0417-bb88-47dc-a11d-df09bd4986d4.sock[0m
+srwxr-xr-x  1 root     root            0 Aug  8 12:10 [01;35mvscode-ipc-f5fd9fdd-f2aa-4672-8a4a-87a175d2e383.sock[0m
+drwxr-xr-x  2 root     root         4096 Aug 19 14:30 [01;34mvscode-typescript0[0m
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ [H[2J]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ ls -l /tmp/stat run.sh [7Pls -l
+total 4
+-rw-rw-r-- 1 dmanakov dmanakov 18 Sep  7 09:33 run.sh
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ ls -l ..
+total 64
+-rw-rw-r-- 1 dmanakov dmanakov 49152 Sep  7 09:37 bash_history
+drwxrwxr-x 2 dmanakov dmanakov  4096 Sep  7 09:36 [0m[01;34mexample_0[0m
+drwxrwxr-x 2 dmanakov dmanakov  4096 Sep  6 23:48 [01;34mexample_1_simple_c[0m
+drwxrwxr-x 2 dmanakov dmanakov  4096 Sep  6 23:57 [01;34mexample_2[0m
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ ls /dev/sd*
+[0m[40;33;01m/dev/sda[0m  [40;33;01m/dev/sdb[0m
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ ls /dev/sd*[C /dev/sd*- /dev/sd*l /dev/sd*
+brw------- 1 root root 8,  0 Sep  6 22:02 [0m[40;33;01m/dev/sda[0m
+brw------- 1 root root 8, 16 Sep  6 22:02 [40;33;01m/dev/sdb[0m
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ chown dmanakov [K:root run.sh 
+chown: changing ownership of 'run.sh': Operation not permitted
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ sudo !!
+sudo chown dmanakov:root run.sh 
+[sudo] password for dmanakov: 
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ [H[2J]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ ls -l run.sh 
+-rw-rw-r-- 1 dmanakov root 18 Sep  7 09:33 run.sh
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ stat run.sh 
+  File: run.sh
+  Size: 18        	Blocks: 8          IO Block: 4096   regular file
+Device: 810h/2064d	Inode: 520943      Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/dmanakov)   Gid: (    0/    root)
+Access: 2022-09-07 09:33:34.900951100 +0300
+Modify: 2022-09-07 09:33:24.630951100 +0300
+Change: 2022-09-07 09:40:27.250951100 +0300
+ Birth: -
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ /home/dmanakov/caos/e[Kb[K01-bash/example_0/ru
+bash: /home/dmanakov/caos/01-bash/example_0/ru: No such file or directory
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ /home/dmanakov/caos/01-bash/example_0/run.sh
+bash: /home/dmanakov/caos/01-bash/example_0/run.sh: Permission denied
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ [H[2J]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ /home/dmanakov/caos/01-bash/example_0/run.sh
+bash: /home/dmanakov/caos/01-bash/example_0/run.sh: Permission denied
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ chmod 775 run.sh 
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ ls -l
+total 4
+-rwxrwxr-x 1 dmanakov root 18 Sep  7 09:33 [0m[01;32mrun.sh[0m
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ chmod +r =[K+w +x[C[C[C[C[C[C[1@u[C[C[C[1@g[C[C[Co+x[C[C[1Px-x[C[1P[1@-[C[C[C[C[C[1P[1@-[C[C[C[C[C run.r[Ksh [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kh
+chmod: cannot access 'g-w': No such file or directory
+chmod: cannot access 'o-x': No such file or directory
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ chmod u-r g-w o-x run.sh [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P run.sh
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P run.sh[1P run.sh[1Prun.sh[1P run.sh[1P run.sh[1P run.sh[1Prun.shls -l[Kchmod u-r run.sh^C
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ chmod u-r run.shls -l[Kchmod 775 run.sh ls -l[Kchmod u-r run.sh[Kchmod u-r run.sh[Cg run.sh- run.sh2 run.sh[1P run.shw run.sho run.sh- run.shx run.sh
+chmod: invalid mode: ‘u-rg-wo-x’
+Try 'chmod --help' for more information.
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ chmod u-rg-wo-x run.sh[1P run.sh[1P run.sh[1P run.sh[1P run.sh[1P run.sh[1P run.sh
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ ls -l
+total 4
+--wxrwxr-x 1 dmanakov root 18 Sep  7 09:33 [0m[01;32mrun.sh[0m
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ r[Kcat run.sh 
+cat: run.sh: Permission denied
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ su root
+Password: 
+^C
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ sudo su root
+]0;root@NOTEBOOK-k0zFS5: /home/dmanakov/caos/01-bash/example_0root@NOTEBOOK-k0zFS5:/home/dmanakov/caos/01-bash/example_0# ls -l
+total 4
+--wxrwxr-x 1 dmanakov root 18 Sep  7 09:33 [0m[01;32mrun.sh[0m
+]0;root@NOTEBOOK-k0zFS5: /home/dmanakov/caos/01-bash/example_0root@NOTEBOOK-k0zFS5:/home/dmanakov/caos/01-bash/example_0# cat run.sh 
+echo Hello, CAOS!
+]0;root@NOTEBOOK-k0zFS5: /home/dmanakov/caos/01-bash/example_0root@NOTEBOOK-k0zFS5:/home/dmanakov/caos/01-bash/example_0# exit
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ [H[2J]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ ls
+[0m[01;32mrun.sh[0m
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ l [Ks -l
+total 4
+--wxrwxr-x 1 dmanakov root 18 Sep  7 09:33 [0m[01;32mrun.sh[0m
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ chom[Kd [K[K[Kmod 775 run.sh 
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ ls -l
+total 4
+-rwxrwxr-x 1 dmanakov root 18 Sep  7 09:33 [0m[01;32mrun.sh[0m
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ /home/co[Ka[K[Kdmanakov/caos/01-bash/example_e[K0/run.sh 
+Hello, CAOS!
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ vim run.sh 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;19r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[19;1H"run.sh" 1L, 18C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[38;5;130mecho[m[31m Hello, CAOS![m
+[94m~                                                                          [3;1H~                                                                          [4;1H~                                                                          [5;1H~                                                                          [6;1H~                                                                          [7;1H~                                                                          [8;1H~                                                                          [9;1H~                                                                          [10;1H~                                                                          [11;1H~                                                                          [12;1H~                                                                          [13;1H~                                                                          [14;1H~                                                                          [15;1H~                                                                          [16;1H~                                                                          [17;1H~                                                                          [18;1H~                                                                          [m[19;58H1,1[11CAll[1;1H[?25h[?25l[19;1H[1m-- INSERT --[m[19;14H[K[19;58H1,1[11CAll[1;1H[?25h[?25l[1;1H[K[2;1H[38;5;130mecho[m[31m Hello, CAOS![m[2;18H[K[19;58H2[2;1H[?25h[?25l[2;1H[K[3;1H[38;5;130mecho[m[31m Hello, CAOS![m[3;18H[K[19;58H3[3;1H[?25h[?25l[19;58H2[2;1H[?25h[?25l[19;58H1[1;1H[?25h[?25l[34m#[m[19;60H2[1;2H[?25h[?25l[34m![m[19;60H3[1;3H[?25h[?25l[34m/[m[19;60H4[1;4H[?25h[?25l[34mb[m[19;60H5[1;5H[?25h[?25l[34mi[m[19;60H6[1;6H[?25h[?25l[34mn[m[19;60H7[1;7H[?25h[?25l[34m/[m[19;60H8[1;8H[?25h[?25l[34mb[m[19;60H9[1;9H[?25h[?25l[34ma[m[19;60H10[1;10H[?25h[?25l[34ms[m[19;61H1[1;11H[?25h[?25l[34mh[m[19;61H2[1;12H[?25h[19;1H[K[1;11H[?25l[19;58H1,11[10CAll[1;11H[?25h[?25l[19;61H0[1;10H[?25h[?25l[19;60H9 [1;9H[?25h[?25l[19;60H8[1;8H[?25h[?25l[19;60H7[1;7H[?25h[?25l[19;60H6[1;6H[?25h[?25l[19;60H5[1;5H[?25h[?25l[19;60H4[1;4H[?25h[?25l[19;60H3[1;3H[?25h[?25l[19;60H2[1;2H[?25h[?25l[19;60H1[1;1H[?25h[?25l[19;1H[1m-- VISUAL --[m[19;58H[K[19;58H1,1[11CAll[1;1H[?25h[?25l[34m[47m#[m[19;60H2[1;2H[?25h[?25l[34m[47m![m[19;60H3[1;3H[?25h[?25l[34m#![m[19;1H[K[19;58H1,3[11CAll[1;3H[?25h[?25l[19;60H2[1;2H[?25h[?25l[19;60H1[1;1H[?25h[?25l[19;60H2[1;2H[?25h[?25l[19;60H3[1;3H[?25h[?25l[19;1H[1m-- VISUAL --[m[19;58H[K[19;58H1,3[11CAll[1;3H[?25h[?25l[34m[47m/[m[19;60H4[1;4H[?25h[?25l[34m[47mb[m[19;60H5[1;5H[?25h[?25l[34m[47mi[m[19;60H6[1;6H[?25h[?25l[34m[47mn[m[19;60H7[1;7H[?25h[?25l[34m[47m/[m[19;60H8[1;8H[?25h[?25l[34m[47mb[m[19;60H9[1;9H[?25h[?25l[34m[47ma[m[19;60H10[1;10H[?25h[?25l[34m[47ms[m[19;61H1[1;11H[?25h[?25l[34m[47mh[m[19;61H2[1;12H[?25h[?25l[1;3H[34m/bin/bash[m[19;1H[K[19;58H1,11[10CAll[1;11H[?25h[?25l[19;1H[1m-- INSERT --[m[19;58H[K[19;58H1,12[10CAll[1;12H[?25h[?25l[1;11H[K[19;61H1[1;11H[?25h[?25l[1;10H[K[19;61H0[1;10H[?25h[?25l[1;9H[K[19;60H9 [1;9H[?25h[?25l[1;8H[K[19;60H8[1;8H[?25h[?25l[1;7H[K[19;60H7[1;7H[?25h[?25l[1;6H[K[19;60H6[1;6H[?25h[?25l[1;5H[K[19;60H5[1;5H[?25h[?25l[1;4H[K[19;60H4[1;4H[?25h[?25l[34mu[m[19;60H5[1;5H[?25h[?25l[34ms[m[19;60H6[1;6H[?25h[?25l[34mr[m[19;60H7[1;7H[?25h[?25l[34m/[m[19;60H8[1;8H[?25h[?25l[34mb[m[19;60H9[1;9H[?25h[?25l[34mi[m[19;60H10[1;10H[?25h[?25l[34mn[m[19;61H1[1;11H[?25h[?25l[34m/[m[19;61H2[1;12H[?25h[?25l[34mb[m[19;61H3[1;13H[?25h[?25l[34mp[m[19;61H4[1;14H[?25h[?25l[1;13H[K[19;61H3[1;13H[?25h[?25l[1;12H[K[19;61H2[1;12H[?25h[?25l[34mp[m[19;61H3[1;13H[?25h[?25l[34my[m[19;61H4[1;14H[?25h[?25l[34mt[m[19;61H5[1;15H[?25h[?25l[34mh[m[19;61H6[1;16H[?25h[?25l[34mo[m[19;61H7[1;17H[?25h[?25l[34mn[m[19;61H8[1;18H[?25h[?25l[34m3[m[19;61H9[1;19H[?25h[?25l[19;58H2,1 [2;1H[?25h[?25l[19;58H3,18[3;18H[?25h[?25l[3;17H[K[19;61H7[3;17H[?25h[?25l[3;16H[K[19;61H6[3;16H[?25h[?25l[3;15H[K[19;61H5[3;15H[?25h[?25l[3;14H[K[19;61H4[3;14H[?25h[?25l[3;13H[K[19;61H3[3;13H[?25h[?25l[3;12H[K[19;61H2[3;12H[?25h[?25l[3;11H[K[19;61H1[3;11H[?25h[?25l[3;10H[K[19;61H0[3;10H[?25h[?25l[3;9H[K[19;60H9 [3;9H[?25h[?25l[3;8H[K[19;60H8[3;8H[?25h[?25l[3;7H[K[19;60H7[3;7H[?25h[?25l[3;6H[K[19;60H6[3;6H[?25h[?25l[3;5H[K[19;60H5[3;5H[?25h[?25lech[3;4H[K[19;60H4[3;4H[?25h[?25l[3;3H[K[19;60H3[3;3H[?25h[?25l[3;2H[K[19;60H2[3;2H[?25h[?25l[3;1H[K[19;60H1[3;1H[?25h[?25lp[19;60H2[3;2H[?25h[?25lr[19;60H3[3;3H[?25h[?25li[19;60H4[3;4H[?25h[?25ln[19;60H5[3;5H[?25h[?25l[38;5;130mprint[m[19;60H6[3;6H[?25h[?25l[35m([m[19;60H7[3;7H[?25h[?25l[38;5;130m'[m[19;60H8[3;8H[?25h[?25l[31ma[m[19;60H9[3;9H[?25h[?25l[31ms[m[19;60H10[3;10H[?25h[?25l[31md[m[19;61H1[3;11H[?25h[?25l[31ma[m[19;61H2[3;12H[?25h[?25l[31md[m[19;61H3[3;13H[?25h[?25l[31ma[m[19;61H4[3;14H[?25h[?25l[31md[m[19;61H5[3;15H[?25h[?25l[38;5;130m'[m[19;61H6[3;16H[?25h[?25l[35m)[m[3;6H[35m[106m([9C)[m[19;61H7[3;17H[?25h[19;1H[K[3;16H[?25l[19;58H3,16[10CAll[3;16H[?25h[?25l[19;58H[K[19;1H:[?2004h[?25hwq[?25l[?2004l"run.sh" 3L, 37C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ cat[K[K[K[H[2J]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ cat run.sh 
+#!/usr/bin/python3
+
+print('asdadad')
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ ./run.sh 
+asdadad
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ ls -l
+total 4
+-rwxrwxr-x 1 dmanakov root 37 Sep  7 09:45 [0m[01;32mrun.sh[0m
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ /sada[K[K[K[K[K. ../../../[K[K[K[K[K[K[K[K[K[K[K./run.sh 
+asdadad
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ vim[K[K[Kvim run.sh 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;19r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[19;1H"run.sh" 3L, 37C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[34m#!/usr/bin/python3[m
+
+[38;5;130mprint[m[35m([m[38;5;130m'[m[31masdadad[m[38;5;130m'[m[35m)[m
+[94m~                                                                          [5;1H~                                                                          [6;1H~                                                                          [7;1H~                                                                          [8;1H~                                                                          [9;1H~                                                                          [10;1H~                                                                          [11;1H~                                                                          [12;1H~                                                                          [13;1H~                                                                          [14;1H~                                                                          [15;1H~                                                                          [16;1H~                                                                          [17;1H~                                                                          [18;1H~                                                                          [m[19;58H1,1[11CAll[1;1H[?25h[?25l[19;60H2[1;2H[?25h[?25l[19;60H3[1;3H[?25h[?25l[19;1H[1m-- VISUAL --[m[19;14H[K[19;58H1,3[11CAll[1;3H[?25h[?25l[34m[47m/[m[19;60H4[1;4H[?25h[?25l[34m[47mu[m[19;60H5[1;5H[?25h[?25l[34m[47ms[m[19;60H6[1;6H[?25h[?25l[34m[47mr[m[19;60H7[1;7H[?25h[?25l[34m[47m/[m[19;60H8[1;8H[?25h[?25l[34m[47mb[m[19;60H9[1;9H[?25h[?25l[34m[47mi[m[19;60H10[1;10H[?25h[?25l[34m[47mn[m[19;61H1[1;11H[?25h[?25l[34m[47m/[m[19;61H2[1;12H[?25h[?25l[34m[47mp[m[19;61H3[1;13H[?25h[?25l[34m[47my[m[19;61H4[1;14H[?25h[?25l[34m[47mt[m[19;61H5[1;15H[?25h[?25l[34m[47mh[m[19;61H6[1;16H[?25h[?25l[34m[47mo[m[19;61H7[1;17H[?25h[?25l[34m[47mn[m[19;61H8[1;18H[?25h[?25l[34m[47m3[m[19;61H9[1;19H[?25h[?25l[1;18r[18;1H
+[1;19r[1;1H[34m#![m[18;1H[94m~                                                                          [m[19;1H[K[19;58H1,2[11CAll[1;2H[?25h[?25l[19;1H[1m-- INSERT --[m[19;58H[K[19;58H1,3[11CAll[1;3H[?25h[19;1H[K[1;2H[?25l[19;58H1,2[11CAll[1;2H[?25h[?25l[1;18r[18;1H
+[1;19r[18;1H[94m~                                                                          [m[19;58H[K[19;58H1,1[11CAll[1;1H[?25h[?25l[19;58H[K[19;1H:[?2004h[?25hq[?25l[19;2H[K[19;2H[?25hwq[?25l[?2004l"run.sh" 1L, 17C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ ./run.sh 
+./run.sh: line 1: syntax error near unexpected token `'asdadad''
+./run.sh: line 1: `print('asdadad')'
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ ls [K[K[Kvim .[K[K[K[K[K[H[2J]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ head 5 b[K.[K~/.bashrc
+head: cannot open '5' for reading: No such file or directory
+==> /home/dmanakov/.bashrc <==
+# ~/.bashrc: executed by bash(1) for non-login shells.
+# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
+# for examples
+
+# If not running interactively, don't do anything
+case $- in
+    *i*) ;;
+      *) return;;
+esac
+
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ head 5 ~/.bashrc[K[K[K[K[K[Kzshrc
+head: cannot open '5' for reading: No such file or directory
+==> /home/dmanakov/.zshrc <==
+# Set up the prompt
+
+# autoload -Uz promptinit
+# promptinit
+# prompt adam1
+
+PROMPT="%F{green}[%f%n@%F{cyan}%m%f %~%F{green}]%f
+%(?.%F{green}$%f.%F{red}$%f) "
+
+setopt histignorealldups sharehistory
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ csh
+bash: csh: command not found
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ fish
+bash: fish: command not found
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ -[Kwherei[K[K[K[K[K[K[H[2J]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ whereis l[Ksh
+sh: /usr/bin/sh /usr/share/man/man1/sh.1.gz
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ ls -l /srv/[K[K[K[Kusr/bin/sh
+lrwxrwxrwx 1 root root 4 Apr 23  2020 [0m[01;36m/usr/bin/sh[0m -> [01;32mdash[0m
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ where is [K[K[K[Kis dash
+dash: /usr/bin/dash /usr/share/man/man1/dash.1.gz
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ whereis dashls -l /usr/bin/sh[K[Kb[Kdash
+-rwxr-xr-x 1 root root 129816 Jul 18  2019 [0m[01;32m/usr/bin/dash[0m
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ ls -l /usr/bin/dash[7Pwhereis dash[K[K[K[Kls -l /usr/bin/sh[9Pwhereis [K[K[K[K[K[K[K[Kdash
+$ ls
+run.sh
+$ 
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ ls
+[0m[01;32mrun.sh[0m
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ [H[2J]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ r[Kvim run.sh 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;19r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[19;1H"run.sh" 1L, 17C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[38;5;130mprint[m[35m([m[38;5;130m'[m[31masdadad[m[38;5;130m'[m[35m)[m
+[94m~                                                                          [3;1H~                                                                          [4;1H~                                                                          [5;1H~                                                                          [6;1H~                                                                          [7;1H~                                                                          [8;1H~                                                                          [9;1H~                                                                          [10;1H~                                                                          [11;1H~                                                                          [12;1H~                                                                          [13;1H~                                                                          [14;1H~                                                                          [15;1H~                                                                          [16;1H~                                                                          [17;1H~                                                                          [18;1H~                                                                          [m[19;58H1,1[11CAll[1;1H[?25h[?25l[1;1H[K[19;1H--No lines in buffer--[19;58H[K[19;58H0,0-1[9CAll[1;1H[?25h[?25l[19;1H[1m-- INSERT --[m[19;13H[K[19;58H0,1[11CAll[1;1H[?25h[?25l[34m#[m[19;58H1,2[1;2H[?25h[?25l[34m![m[19;60H3[1;3H[?25h[?25l[34m/[m[19;60H4[1;4H[?25h[?25l[34mb[m[19;60H5[1;5H[?25h[?25l[34mi[m[19;60H6[1;6H[?25h[?25l[34mn[m[19;60H7[1;7H[?25h[?25l[34m/[m[19;60H8[1;8H[?25h[?25l[34mb[m[19;60H9[1;9H[?25h[?25l[34ma[m[19;60H10[1;10H[?25h[?25l[34ms[m[19;61H1[1;11H[?25h[?25l[34mh[m[19;61H2[1;12H[?25h[?25l[2;1H[K[19;58H2,1 [2;1H[?25h[?25l[3;1H[K[19;58H3[3;1H[?25h[?25l[94m~                                                                          [m[19;58H2[2;1H[?25h[?25l[94m~                                                                          [m[19;58H1,12[1;12H[?25h[?25l[1;11H[K[19;61H1[1;11H[?25h[?25l[1;10H[K[19;61H0[1;10H[?25h[?25l[1;9H[K[19;60H9 [1;9H[?25h[?25l[1;8H[K[19;60H8[1;8H[?25h[?25l[34ms[m[19;60H9[1;9H[?25h[?25l[34mh[m[19;60H10[1;10H[?25h[?25l[19;60H9 [1;9H[?25h[?25l[19;60H8[1;8H[?25h[?25l[19;60H9[1;9H[?25h[?25l[19;60H10[1;10H[?25h[?25l[1;9H[K[19;60H9 [1;9H[?25h[?25l[1;8H[K[19;60H8[1;8H[?25h[?25l[1;7H[K[19;60H7[1;7H[?25h[?25l[1;6H[K[19;60H6[1;6H[?25h[?25l[1;5H[K[19;60H5[1;5H[?25h[?25l[1;4H[K[19;60H4[1;4H[?25h[?25l[34mu[m[19;60H5[1;5H[?25h[?25l[34ms[m[19;60H6[1;6H[?25h[?25l[34mr[m[19;60H7[1;7H[?25h[?25l[34m [m[19;60H8[1;8H[?25h[?25l[1;7H[K[19;60H7[1;7H[?25h[?25l[34m/[m[19;60H8[1;8H[?25h[?25l[34me[m[19;60H9[1;9H[?25h[?25l[34mv[m[19;60H10[1;10H[?25h[?25l[34mn[m[19;61H1[1;11H[?25h[?25l[1;10H[K[19;61H0[1;10H[?25h[?25l[1;9H[K[19;60H9 [1;9H[?25h[?25l[34mn[m[19;60H10[1;10H[?25h[?25l[34mv[m[19;61H1[1;11H[?25h[?25l[34m [m[19;61H2[1;12H[?25h[?25l[1;11H[K[19;61H1[1;11H[?25h[?25l[34m/[m[19;61H2[1;12H[?25h[?25l[1;11H[K[19;61H1[1;11H[?25h[?25l[34m [m[19;61H2[1;12H[?25h[?25l[34m-[m[19;61H3[1;13H[?25h[?25l[34mu[m[19;61H4[1;14H[?25h[?25l[34m [m[19;61H5[1;15H[?25h[?25l[1;14H[K[19;61H4[1;14H[?25h[?25l[1;13H[K[19;61H3[1;13H[?25h[?25l[1;12H[K[19;61H2[1;12H[?25h[?25l[1;11H[K[19;61H1[1;11H[?25h[?25l[1;10H[K[19;61H0[1;10H[?25h[?25l[1;9H[K[19;60H9 [1;9H[?25h[?25l[1;8H[K[19;60H8[1;8H[?25h[?25l[1;7H[K[19;60H7[1;7H[?25h[?25l[1;6H[K[19;60H6[1;6H[?25h[?25l[1;5H[K[19;60H5[1;5H[?25h[?25l[1;4H[K[19;60H4[1;4H[?25h[?25l[34mb[m[19;60H5[1;5H[?25h[?25l[34mi[m[19;60H6[1;6H[?25h[?25l[34mn[m[19;60H7[1;7H[?25h[?25l[34m/[m[19;60H8[1;8H[?25h[?25l[34mb[m[19;60H9[1;9H[?25h[?25l[34ma[m[19;60H10[1;10H[?25h[?25l[34ms[m[19;61H1[1;11H[?25h[?25l[34mh[m[19;61H2[1;12H[?25h[?25l[2;1H[K[19;58H2,1 [2;1H[?25h[?25l[3;1H[K[19;58H3[3;1H[?25h[?25le[19;60H2[3;2H[?25h[?25lc[19;60H3[3;3H[?25h[?25lh[19;60H4[3;4H[?25h[?25l[38;5;130mecho[m[19;60H5[3;5H[?25h[?25l[31m [m[19;60H6[3;6H[?25h[?25l[31m$[m[19;60H7[3;7H[?25h[?25l[35m$0[m[19;60H8[3;8H[?25h[?25l[31m-[m[19;60H9[3;9H[?25h[?25l[3;8H[K[19;60H8[3;8H[?25h[?25l[4;1H[K[19;58H4,1[4;1H[?25h[?25l[5;1H[K[19;58H5[5;1H[?25h[?25le[19;60H2[5;2H[?25h[?25lc[19;60H3[5;3H[?25h[?25lh[19;60H4[5;4H[?25h[?25l[38;5;130mecho[m[19;60H5[5;5H[?25h[?25l[31m [m[19;60H6[5;6H[?25h[?25l[31m$[m[19;60H7[5;7H[?25h[?25l[35m$1[m[19;60H8[5;8H[?25h[?25l[6;1H[K[19;58H6,1[6;1H[?25h[?25l[7;1H[K[19;58H7[7;1H[?25h[?25le[19;60H2[7;2H[?25h[?25lc[19;60H3[7;3H[?25h[?25lh[19;60H4[7;4H[?25h[?25l[38;5;130mecho[m[19;60H5[7;5H[?25h[?25l[31m [m[19;60H6[7;6H[?25h[?25l[31m$[m[19;60H7[7;7H[?25h[?25l[35m$3[m[19;60H8[7;8H[?25h[19;1H[K[7;7H[?25l[19;58H7,7[11CAll[7;7H[?25h[?25l[19;58H[K[19;1H:[?2004h[?25hwq[?25l[?2004l"run.sh" 7L, 39C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ [H[2J]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ cat run.sh 
+#!/bin/bash
+
+echo $0
+
+echo $1
+
+echo $3
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ ./run.sh 
+./run.sh
+
+
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ /home/c[K[K[K[K[K[K[K$()p)w)d)[C/run.sh
+/home/dmanakov/caos/01-bash/example_0/run.sh
+
+
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ $()p)w)d)[C[C[K[K[K[K[K[Kpwd[K[K[Kvim run.sh [K[K[K[K[K[K[K[K[K[K[K./run.sh some0[K1 some2 som e3 some4[C[C[C[C[C a[Ksome5[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C'some2 som[1@e[A]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[1@'
+./run.sh
+some1
+some4
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ [H[2J]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ ./run.sh some1 'some2 some3' some4 some5
+./run.sh
+some1
+some4
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ cat run.sh 
+#!/bin/bash
+
+echo $0
+
+echo $1
+
+echo $3
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ ru[K[Kvu m[K[K[Kim run.sh 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;19r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[19;1H"run.sh" 7L, 39C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[34m#!/bin/bash[m
+
+[38;5;130mecho[m[31m [m[35m$0[m
+
+[38;5;130mecho[m[31m [m[35m$1[m
+
+[38;5;130mecho[m[31m [m[35m$3[m
+[94m~                                                                          [9;1H~                                                                          [10;1H~                                                                          [11;1H~                                                                          [12;1H~                                                                          [13;1H~                                                                          [14;1H~                                                                          [15;1H~                                                                          [16;1H~                                                                          [17;1H~                                                                          [18;1H~                                                                          [m[19;58H1,1[11CAll[1;1H[?25h[?25l[19;58H2,0-1[2;1H[?25h[?25l[19;1H[K[19;1H:[?2004h[?25hq![?25l[?2004l[23;2t[23;1t[19;1H[K[19;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ cd ..
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ [H[2J]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ run.sh
+bash: run.sh: command not found
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ e[Kecho ${PA[K[K[KPATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ export PATH=$PATH=[K/[K:/hom[Ke[Km[K[K[K[K$()[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksome_var=123
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ echo $some_var
+123
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ bash
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ echo $some_var
+
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ exit
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ bashecho $some_var[2Psome_var=123esome_var=123xsome_var=123psome_var=123osome_var=123rsome_var=123tsome_var=123 some_var=123
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ bash
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ echo $some_ar[K[Kvar
+123
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ export PATH[K[K[K[K[K[K[K[K[K[K[Kpwd[K[K[Ke[Kpwd
+/home/dmanakov/caos/01-bash
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ vim .b[Kzshr[K[K[K[K[K~/.zshrc
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;19r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[19;1H"~/.zshrc" 62L, 1993C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[34m# Set up the prompt
+
+# autoload -Uz promptinit
+# promptinit
+# prompt adam1[m
+
+PROMPT=[31m"%F{green}[%f%n@%F{cyan}%m%f %~%F{green}]%f
+%(?.%F{green}$%f.%F{red}$%f) "[m
+
+[38;5;130msetopt[m[31m histignorealldups sharehistory[m
+
+[34m# Use emacs keybindings even if our EDITOR is set to vi[m
+[38;5;130mbindkey[m -e
+
+[34m# Keep 1000 lines of history within the shell and save it to ~/.zsh_historyy[16;1H:[m
+HISTSIZE=[31m1000[m
+SAVEHIST=[31m1000[m[19;58H1,1[11CTop[1;1H[?25h[?25l[19;1H[K[19;1H/[?2004h[?25hp[?25l[19;2H[K[19;2H[?25hPATH[?25l[27m[23m[29m[m[H[2J[1;1H[38;5;130mzstyle[m [31m':completion:*:kill:*'[m [35mcommand[m [31m'ps -u $USER -o pid,%cpu,tty,cputime,,[2;1Hcmd'[m
+
+
+[34m# aliases[m
+[38;5;130malias[m ls=[31m'ls --color'[m
+
+[38;5;130mexport[m PATH=[35m$PATH[m:/mnt/c/Users/d.manakov/AppData/[32mLocal[m/Programs/Microsoft[35m\  [m[9;1HVS[35m\ [mCode/bin
+
+[34m# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !![m
+__conda_setup=[31m"[m[35m$([m[31m'/home/dmanakov/anaconda3/bin/conda' 'shell.zsh' 'hook' 2[m[38;5;130m>>[m[14;1H[31m /dev/null[m[35m)[m[31m"[m
+[38;5;130mif[m [ [35m$?[m -eq [31m0[m ]; [38;5;130mthen
+[m    [38;5;130meval[m [31m"[m[35m$__conda_setup[m[31m"[m
+[38;5;130melse
+[m    [38;5;130mif[m [ -f [31m"/home/dmanakov/anaconda3/etc/profile.d/conda.sh"[m ]; [38;5;130mthen[m[19;58H46,8[10C82%[8;8H[?25h[?25l[19;58H[K[19;1H:[?2004h[1;1H[34m# aliases[m[1;10H[K[2;1H[38;5;130malias[m ls=[31m'ls --color'[m
+
+[38;5;130mexport[m PATH=[35m$PATH[m:/mnt/c/Users/d.manakov/AppData/[32mLocal[m/Programs/Microsoft[35m\  [m[5;1HVS[35m\ [mCode/bin[6;1H[K[7;1H[34m# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !![m[8;63H[K[9;1H__conda_setup=[31m"[m[35m$([m[31m'/home/dmanakov/anaconda3/bin/conda' 'shell.zsh' 'hook' 2[m[38;5;130m>[m[9;1H[94m@                                                                          [m[10;1H[7m~/.zshrc                                                 46,8           76%[m[11;1H[94m:[m[38;5;130m![mcat marker[38;5;130m.[mtoken[11;19H[K[12;1H[94m:[m[38;5;130mq![m::Ж[12;7H:[38;5;130mq![m[12;10H[K[13;1H[94m:[m[38;5;130mw[m[13;3H[K[14;1H[94m:[m[38;5;130mwq[m[14;4H[K[15;1H[94m:[m[38;5;130mq![m[15;4H[K[16;1H[94m:[m[16;5H[K[17;1H[94m~                                                                          [m[18;1H[1m[7m[Command Line]                                           6,0-1          All[16;2H[?25h[?25l[18;58H5,1   [15;2H[?25h[?25l[18;58H4,[14;2H[?25h[?25l[18;58H5,[15;2H[?25h[19;1H[?25l[?2004l[23;2t[23;1t[m[19;1H[K[19;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ exp[K[K[Kvim ~/.zshrcpwd[Kvim ~/.zshrc
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;19r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[19;1H"~/.zshrc" 62L, 1993C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[34m# Set up the prompt
+
+# autoload -Uz promptinit
+# promptinit
+# prompt adam1[m
+
+PROMPT=[31m"%F{green}[%f%n@%F{cyan}%m%f %~%F{green}]%f
+%(?.%F{green}$%f.%F{red}$%f) "[m
+
+[38;5;130msetopt[m[31m histignorealldups sharehistory[m
+
+[34m# Use emacs keybindings even if our EDITOR is set to vi[m
+[38;5;130mbindkey[m -e
+
+[34m# Keep 1000 lines of history within the shell and save it to ~/.zsh_historyy[16;1H:[m
+HISTSIZE=[31m1000[m
+SAVEHIST=[31m1000[m[19;58H1,1[11CTop[1;1H[?25h[?25l[19;1H[K[19;1H/[?2004h[?25hPROMT[?25l[19;6H[K[19;6H[?25hPT[?25l[57C7,1[11CTop[7;1H[?25h[?25l[19;1H[K[19;1H/[?2004h[?25hPATH[?25l[27m[23m[29m[m[H[2J[1;1H[38;5;130mzstyle[m [31m':completion:*:kill:*'[m [35mcommand[m [31m'ps -u $USER -o pid,%cpu,tty,cputime,,[2;1Hcmd'[m
+
+
+[34m# aliases[m
+[38;5;130malias[m ls=[31m'ls --color'[m
+
+[38;5;130mexport[m PATH=[35m$PATH[m:/mnt/c/Users/d.manakov/AppData/[32mLocal[m/Programs/Microsoft[35m\  [m[9;1HVS[35m\ [mCode/bin
+
+[34m# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !![m
+__conda_setup=[31m"[m[35m$([m[31m'/home/dmanakov/anaconda3/bin/conda' 'shell.zsh' 'hook' 2[m[38;5;130m>>[m[14;1H[31m /dev/null[m[35m)[m[31m"[m
+[38;5;130mif[m [ [35m$?[m -eq [31m0[m ]; [38;5;130mthen
+[m    [38;5;130meval[m [31m"[m[35m$__conda_setup[m[31m"[m
+[38;5;130melse
+[m    [38;5;130mif[m [ -f [31m"/home/dmanakov/anaconda3/etc/profile.d/conda.sh"[m ]; [38;5;130mthen[m[19;58H46,8[10C82%[8;8H[?25h[?25l[19;58H[K[19;1H:[?2004h[?25h![?25l:![?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t
+
+Press ENTER or type command to continue[?1049h[22;0;0t[>4;2m[?1h=[?2004h[27m[23m[29m[m[H[2J[?25l[1;1H[38;5;130mzstyle[m [31m':completion:*:kill:*'[m [35mcommand[m [31m'ps -u $USER -o pid,%cpu,tty,cputime,,[2;1Hcmd'[m
+
+
+[34m# aliases[m
+[38;5;130malias[m ls=[31m'ls --color'[m
+
+[38;5;130mexport[m PATH=[35m$PATH[m:/mnt/c/Users/d.manakov/AppData/[32mLocal[m/Programs/Microsoft[35m\  [m[9;1HVS[35m\ [mCode/bin
+
+[34m# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !![m
+__conda_setup=[31m"[m[35m$([m[31m'/home/dmanakov/anaconda3/bin/conda' 'shell.zsh' 'hook' 2[m[38;5;130m>>[m[14;1H[31m /dev/null[m[35m)[m[31m"[m
+[38;5;130mif[m [ [35m$?[m -eq [31m0[m ]; [38;5;130mthen
+[m    [38;5;130meval[m [31m"[m[35m$__conda_setup[m[31m"[m
+[38;5;130melse
+[m    [38;5;130mif[m [ -f [31m"/home/dmanakov/anaconda3/etc/profile.d/conda.sh"[m ]; [38;5;130mthen[m[19;58H46,8[10C82%[8;8H[?25h[?25l[19;58H[K[19;1H:[?2004h[1;1H[34m# aliases[m[1;10H[K[2;1H[38;5;130malias[m ls=[31m'ls --color'[m
+
+[38;5;130mexport[m PATH=[35m$PATH[m:/mnt/c/Users/d.manakov/AppData/[32mLocal[m/Programs/Microsoft[35m\  [m[5;1HVS[35m\ [mCode/bin[6;1H[K[7;1H[34m# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !![m[8;63H[K[9;1H__conda_setup=[31m"[m[35m$([m[31m'/home/dmanakov/anaconda3/bin/conda' 'shell.zsh' 'hook' 2[m[38;5;130m>[m[9;1H[94m@                                                                          [m[10;1H[7m~/.zshrc                                                 46,8           76%[m[11;1H[94m:[m[38;5;130m![mcat marker[38;5;130m.[mtoken[11;19H[K[12;1H[94m:[m[38;5;130mq![m::Ж[12;7H:[38;5;130mq![m[12;10H[K[13;1H[94m:[m[38;5;130mw[m[13;3H[K[14;1H[94m:[m[38;5;130mwq[m[14;4H[K[15;1H[94m:[m[38;5;130mq![m[15;4H[K[16;1H[94m:[m[38;5;130m![m[16;5H[K[17;1H[94m:[m[17;2H[K[18;1H[1m[7m[Command Line]                                           7,0-1          All[17;2H[?25h[?25l[18;58H6,1   [16;2H[?25h[?25l[18;58H5,[15;2H[?25h[19;1H[?25l[?2004l[23;2t[23;1t[m[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ vim ~/.bashrc
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;19r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[19;1H"~/.bashrc" 117L, 3771C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[34m# ~/.bashrc: executed by bash(1) for non-login shells.
+# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
+# for examples
+
+# If not running interactively, don't do anything[m
+[38;5;130mcase[m [35m$-[m [38;5;130min[m
+    *i*[38;5;130m)[m [38;5;130m;;[m[8;7H*[38;5;130m)[m [38;5;130mreturn;;
+esac[m
+
+[34m# don't put duplicate lines or lines starting with space in the history.
+# See bash(1) for more options[m
+[36mHISTCONTROL[m=ignoreboth
+
+[34m# append to the history file, don't overwrite it[m
+shopt [35m-s[m histappend
+
+[34m# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)[m[19;58H1,1[11CTop[1;1H[?25h[?25l[19;1H[K[19;1H/[?2004h[?25hPATH[?25l[31msearch hit BOTTOM, continuing at TOP[m[97m[41mE486: Pattern not found: PATH[m[19;30H[K[19;58H1,1[11CTop[1;1H[?25h[?25l[19;1H[K[19;1H:[?2004h[?25hq![?25l[?2004l[23;2t[23;1t[19;1H[K[19;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ vim ~/.bashrc[1Pzshrc
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;19r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[19;1H"~/.zshrc" 62L, 1993C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[34m# Set up the prompt
+
+# autoload -Uz promptinit
+# promptinit
+# prompt adam1[m
+
+PROMPT=[31m"%F{green}[%f%n@%F{cyan}%m%f %~%F{green}]%f
+%(?.%F{green}$%f.%F{red}$%f) "[m
+
+[38;5;130msetopt[m[31m histignorealldups sharehistory[m
+
+[34m# Use emacs keybindings even if our EDITOR is set to vi[m
+[38;5;130mbindkey[m -e
+
+[34m# Keep 1000 lines of history within the shell and save it to ~/.zsh_historyy[16;1H:[m
+HISTSIZE=[31m1000[m
+SAVEHIST=[31m1000[m[19;58H1,1[11CTop[1;1H[?25h[?25l[19;1H[K[19;1H/[?2004h[?25hPATH[?25l[27m[23m[29m[m[H[2J[1;1H[38;5;130mzstyle[m [31m':completion:*:kill:*'[m [35mcommand[m [31m'ps -u $USER -o pid,%cpu,tty,cputime,,[2;1Hcmd'[m
+
+
+[34m# aliases[m
+[38;5;130malias[m ls=[31m'ls --color'[m
+
+[38;5;130mexport[m PATH=[35m$PATH[m:/mnt/c/Users/d.manakov/AppData/[32mLocal[m/Programs/Microsoft[35m\  [m[9;1HVS[35m\ [mCode/bin
+
+[34m# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !![m
+__conda_setup=[31m"[m[35m$([m[31m'/home/dmanakov/anaconda3/bin/conda' 'shell.zsh' 'hook' 2[m[38;5;130m>>[m[14;1H[31m /dev/null[m[35m)[m[31m"[m
+[38;5;130mif[m [ [35m$?[m -eq [31m0[m ]; [38;5;130mthen
+[m    [38;5;130meval[m [31m"[m[35m$__conda_setup[m[31m"[m
+[38;5;130melse
+[m    [38;5;130mif[m [ -f [31m"/home/dmanakov/anaconda3/etc/profile.d/conda.sh"[m ]; [38;5;130mthen[m[19;58H46,8[10C82%[8;8H[?25h[?25l[19;58H[K[19;1H:[?2004h[?25hq![?25l[?2004l[23;2t[23;1t[19;1H[K[19;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ zsh
+[1m[7m%[27m[1m[0m                                                                           [0m[27m[24m[J(base) [32m[[39mdmanakov@[36mNOTEBOOK-k0zFS5[39m ~/caos/01-bash[32m][39m
+[32m$[39m [K[?1h=[?2004heecho $PATH[?1l>[?2004l
+/home/dmanakov/anaconda3/bin:/home/dmanakov/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/mnt/c/Users/d.manakov/AppData/Local/Programs/Microsoft VS Code/bin
+[1m[7m%[27m[1m[0m                                                                           [0m[27m[24m[J(base) [32m[[39mdmanakov@[36mNOTEBOOK-k0zFS5[39m ~/caos/01-bash[32m][39m
+[32m$[39m [K[?1h=[?2004hvvim !/.sh  zsh
+[JCompleting `file' or `corrections'[A[0m[27m[24m[39m[2Cvim !/.zsh[K[39mrc
+[J[JCompleting `file' or `corrections'[A[0m[27m[24m[39m[2Cvim !/.zshrc[K[39m[?1l>[?2004l
+[Jzsh: event not found: /.zshrc
+[1m[7m%[27m[1m[0m                                                                           [0m[27m[24m[J(base) [32m[[39mdmanakov@[36mNOTEBOOK-k0zFS5[39m ~/caos/01-bash[32m][39m
+[31m$[39m [K[?1h=[?2004hvvim ~/.zsrhssh[1m/[0m
+Completing corrections
+[01;34m.ssh[0m/   .zshrc
+Completing original
+[J[0m~/.zsrh[J[4A[0m[27m[24m[39m[2Cvim ~/.ssh[1m/[0m[K[39m[0m    zshrc[?1l>[?2004l
+[J[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;19r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[19;1H"~/.zshrc" 62L, 1993C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[34m# Set up the prompt
+
+# autoload -Uz promptinit
+# promptinit
+# prompt adam1[m
+
+PROMPT=[31m"%F{green}[%f%n@%F{cyan}%m%f %~%F{green}]%f
+%(?.%F{green}$%f.%F{red}$%f) "[m
+
+[38;5;130msetopt[m[31m histignorealldups sharehistory[m
+
+[34m# Use emacs keybindings even if our EDITOR is set to vi[m
+[38;5;130mbindkey[m -e
+
+[34m# Keep 1000 lines of history within the shell and save it to ~/.zsh_historyy[16;1H:[m
+HISTSIZE=[31m1000[m
+SAVEHIST=[31m1000[m[19;58H1,1[11CTop[1;1H[?25h[?25l[19;58H2,0-1[2;1H[?25h[?25l[19;58H3,1  [3;1H[?25h[?25l[19;1H[K[19;1H/[?2004h[?25hPATH[?25l[27m[23m[29m[m[H[2J[1;1H[38;5;130mzstyle[m [31m':completion:*:kill:*'[m [35mcommand[m [31m'ps -u $USER -o pid,%cpu,tty,cputime,,[2;1Hcmd'[m
+
+
+[34m# aliases[m
+[38;5;130malias[m ls=[31m'ls --color'[m
+
+[38;5;130mexport[m PATH=[35m$PATH[m:/mnt/c/Users/d.manakov/AppData/[32mLocal[m/Programs/Microsoft[35m\  [m[9;1HVS[35m\ [mCode/bin
+
+[34m# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !![m
+__conda_setup=[31m"[m[35m$([m[31m'/home/dmanakov/anaconda3/bin/conda' 'shell.zsh' 'hook' 2[m[38;5;130m>>[m[14;1H[31m /dev/null[m[35m)[m[31m"[m
+[38;5;130mif[m [ [35m$?[m -eq [31m0[m ]; [38;5;130mthen
+[m    [38;5;130meval[m [31m"[m[35m$__conda_setup[m[31m"[m
+[38;5;130melse
+[m    [38;5;130mif[m [ -f [31m"/home/dmanakov/anaconda3/etc/profile.d/conda.sh"[m ]; [38;5;130mthen[m[19;58H46,8[10C82%[8;8H[?25h[?25l[19;59H7,0-1[10;1H[?25h[?25l[19;59H8,8  [11;8H[?25h[?25l[19;59H7,0-1[10;1H[?25h[?25l[19;59H6,8  [8;8H[?25h[?25l[19;61H9[8;9H[?25h[?25l[19;59H7,0-1[10;1H[?25h[?25l[19;59H6,85 [9;10H[?25h[?25l[19;62H6[9;11H[?25h[?25l[19;62H7[9;12H[?25h[?25l[19;1H[1m-- INSERT --[m[19;58H[K[19;58H46,88[9C82%[9;13H[?25h[?25l:[19;62H9[9;14H[?25h[?25ls[19;61H90[9;15H[?25h[?25lo[19;62H1[9;16H[?25h[?25lm[19;62H2[9;17H[?25h[?25le[19;62H3[9;18H[?25h[?25l_[19;62H4[9;19H[?25h[?25lp[19;62H5[9;20H[?25h[?25la[19;62H6[9;21H[?25h[?25lt[19;62H7[9;22H[?25h[?25lh[19;62H8[9;23H[?25h[?25l_[19;62H9[9;24H[?25h[?25l1[19;61H100[9;25H[?25h[?25l2[19;63H1[9;26H[?25h[?25l3[19;63H2[9;27H[?25h[19;1H[K[9;26H[?25l[19;58H46,101[8C82%[9;26H[?25h[?25l[19;58H[K[19;1H:[?2004h[?25hwq[?25l[?2004l"~/.zshrc" 62L, 2007C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[1m[7m%[27m[1m[0m                                                                           [0m[27m[24m[J(base) [32m[[39mdmanakov@[36mNOTEBOOK-k0zFS5[39m ~/caos/01-bash[32m][39m
+[32m$[39m [K[?1h=[?2004h[?2004l
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ zsh[Kzsh
+e[1m[7m%[27m[1m[0m                                                                           [0m[27m[24m[J(base) [32m[[39mdmanakov@[36mNOTEBOOK-k0zFS5[39m ~/caos/01-bash[32m][39m
+[32m$[39m [K[?1h=[?2004heecho $PATH[?1l>[?2004l
+/home/dmanakov/anaconda3/bin:/home/dmanakov/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/mnt/c/Users/d.manakov/AppData/Local/Programs/Microsoft VS Code/bin:some_path_123
+[1m[7m%[27m[1m[0m                                                                           [0m[27m[24m[J(base) [32m[[39mdmanakov@[36mNOTEBOOK-k0zFS5[39m ~/caos/01-bash[32m][39m
+[32m$[39m [K[?1h=[?2004h../.  [?2004l
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ [H[2J]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ ls
+bash_history  [0m[01;34mexample_0[0m  [01;34mexample_1_simple_c[0m  [01;34mexample_2[0m
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ vim[K[K[Kc dex[K[K[Kexample_0
+bash: c: command not found
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ [H[2J]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ c example_0[K[K_
+example_0/          example_1_simple_c/ example_2/
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ c example_0/d example_0/
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ [H[2J]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ ls
+[0m[01;32mrun.sh[0m
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ vim run.sh 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;19r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[19;1H"run.sh" 7L, 39C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[34m#!/bin/bash[m
+
+[38;5;130mecho[m[31m [m[35m$0[m
+
+[38;5;130mecho[m[31m [m[35m$1[m
+
+[38;5;130mecho[m[31m [m[35m$3[m
+[94m~                                                                          [9;1H~                                                                          [10;1H~                                                                          [11;1H~                                                                          [12;1H~                                                                          [13;1H~                                                                          [14;1H~                                                                          [15;1H~                                                                          [16;1H~                                                                          [17;1H~                                                                          [18;1H~                                                                          [m[19;58H1,1[11CAll[1;1H[?25h[?25l[19;58H2,0-1[2;1H[?25h[?25l[19;58H3,1  [3;1H[?25h[?25l[19;58H4,0-1[4;1H[?25h[?25l[19;58H5,1  [5;1H[?25h[?25l[19;58H6,0-1[6;1H[?25h[?25l[19;58H7,1  [7;1H[?25h[?25l[19;1H[1m-- INSERT --[m[19;14H[K[19;58H8,1[11CAll[8;1H[K[8;1H[?25h[?25l[9;1H[K[19;58H9[9;1H[?25h[?25l[10;1H[K[19;58H10,1[10;1H[?25h[?25l[11;1H[K[19;59H1[11;1H[?25h[?25l[19;59H0[10;1H[?25h[?25l[19;58H9,1 [9;1H[?25h[?25l[19;58H8[8;1H[?25h[?25l[7;18r[18;1H
+[1;19r[7;1H[38;5;130mecho[m[31m [m[35m$3[m[18;1H[94m~                                                                          [m[19;58H[K[19;58H7,8[11CAll[7;8H[?25h[?25l[31m$[m[7;7H[K[19;60H7[7;7H[?25h[?25l[7;6H[K[19;60H6[7;6H[?25h[?25l[7;5H[K[19;60H5[7;5H[?25h[?25lech[7;4H[K[19;60H4[7;4H[?25h[?25l[7;3H[K[19;60H3[7;3H[?25h[?25l[7;2H[K[19;60H2[7;2H[?25h[?25l[7;1H[K[19;60H1[7;1H[?25h[?25l[6;18r[18;1H
+[1;19r[18;1H[94m~                                                                          [m[19;58H[K[19;58H6,1[11CAll[6;1H[?25h[?25l[5;18r[18;1H
+[1;19r[5;1H[38;5;130mecho[m[31m [m[35m$1[m[18;1H[94m~                                                                          [m[19;58H[K[19;58H5,8[11CAll[5;8H[?25h[?25l[31m$[m[5;7H[K[19;60H7[5;7H[?25h[?25l[5;6H[K[19;60H6[5;6H[?25h[?25l[5;5H[K[19;60H5[5;5H[?25h[?25lech[5;4H[K[19;60H4[5;4H[?25h[?25l[5;3H[K[19;60H3[5;3H[?25h[?25l[5;2H[K[19;60H2[5;2H[?25h[?25l[5;1H[K[19;60H1[5;1H[?25h[?25l[4;18r[18;1H
+[1;19r[18;1H[94m~                                                                          [m[19;58H[K[19;58H4,1[11CAll[4;1H[?25h[?25l[3;18r[18;1H
+[1;19r[3;1H[38;5;130mecho[m[31m [m[35m$0[m[18;1H[94m~                                                                          [m[19;58H[K[19;58H3,8[11CAll[3;8H[?25h[?25l[31m$[m[3;7H[K[19;60H7[3;7H[?25h[?25l[3;6H[K[19;60H6[3;6H[?25h[?25l[3;5H[K[19;60H5[3;5H[?25h[?25lech[3;4H[K[19;60H4[3;4H[?25h[?25l[3;3H[K[19;60H3[3;3H[?25h[?25l[3;2H[K[19;60H2[3;2H[?25h[?25l[3;1H[K[19;60H1[3;1H[?25h[?25l[2;18r[18;1H
+[1;19r[18;1H[94m~                                                                          [m[19;58H[K[19;58H2,1[11CAll[2;1H[?25h[?25l[3;18r[3;1H[L[1;19r[19;58H[K[19;58H3,1[11CAll[3;1H[?25h[?25lf[19;60H2[3;2H[?25h[?25lo[19;60H3[3;3H[?25h[?25lm[19;60H4[3;4H[?25h[?25l[3;3H[K[19;60H3[3;3H[?25h[?25l[3;2H[K[19;60H2[3;2H[?25h[?25l[3;1H[K[19;60H1[3;1H[?25h[?25ld[19;60H2[3;2H[?25h[?25li[19;60H3[3;3H[?25h[?25lr[19;60H4[3;4H[?25h[?25l[36mdir[m=[19;60H5[3;5H[?25h[?25l$[19;60H6[3;6H[?25h[?25l[35m$([m[19;60H7[3;7H[?25h[?25l[35m)[m[35m[106m()[m[19;60H8[3;8H[?25h[?25l[19;60H7[3;7H[?25h[?25l[35m[106ml[m[35m)[m[35ml[m[35m[106m)[m[19;60H8[3;8H[?25h[?25l[38;5;130ml[m[38;5;130m[106ms[m[35m)[m[38;5;130ms[m[35m[106m)[m[19;60H9[3;9H[?25h[?25l[35m[106m [m[35m)[m[35m [m[35m[106m)[m[19;60H10[3;10H[?25h[?25l[35m[106m/[m[35m)[m[35m/[m[35m[106m)[m[19;61H1[3;11H[?25h[19;1H[K[3;10H[?25l[35m([4C)[m[19;58H3,10[10CAll[3;10H[?25h[?25l[19;60H9 [3;9H[?25h[?25l[19;60H10[3;10H[?25h[?25l[19;1H[1m-- VISUAL --[m[19;58H[K[19;58H3,10[10CAll[3;10H[?25h[?25l[19;1H[K[19;58H3,10[10CAll[3;10H[?25h[?25l[35m[106m([4C)[m[19;61H1[3;11H[?25h[?25l[19;1H[1m-- INSERT --[m[19;58H[K[19;58H4,1[11CTop[4;18r[4;1H[L[1;19r[19;58H[K[19;58H4,1[11CAll[3;6H[35m([4C)
+[?25h[?25l[5;18r[m[5;1H[L[1;19r[19;58H[K[19;58H5,1[11CAll[5;1H[?25h[?25l[4;18r[18;1H
+[1;19r[18;1H[94m~                                                                          [m[19;58H[K[19;58H4,1[11CAll[4;1H[?25h[?25ld[19;60H2[4;2H[?25h[?25le[19;60H3[4;3H[?25h[?25lr[19;60H4[4;4H[?25h[?25l[4;3H[K[19;60H3[4;3H[?25h[?25l[4;2H[K[19;60H2[4;2H[?25h[?25li[19;60H3[4;3H[?25h[?25ld[19;60H4[4;4H[?25h[?25lr[19;60H5[4;5H[?25h[?25l[4;4H[K[19;60H4[4;4H[?25h[?25l[4;3H[K[19;60H3[4;3H[?25h[?25lr[19;60H4[4;4H[?25h[?25l[36mdir[m=[19;60H5[4;5H[?25h[?25l[35m`[m[19;60H6[4;6H[?25h[?25l[35m`[m[19;60H7[4;7H[?25h[?25l[19;60H6[4;6H[?25h[?25l[35ml`[m[19;60H7[4;7H[?25h[?25l[38;5;130mls[m[35m`[m[19;60H8[4;8H[?25h[?25l[35m `[m[19;60H9[4;9H[?25h[?25l[35m/`[m[19;60H10[4;10H[?25h[19;1H[K[4;9H[?25l[19;58H4,9[11CAll[4;9H[?25h[?25l[19;58H3[3;9H[?25h[?25l[19;60H8[3;8H[?25h[?25l[19;60H7[3;7H[?25h[?25l[35m[106m([4C)[m[19;60H6[3;6H[?25h[?25l[35m([4C)[m[19;60H5[3;5H[?25h[?25l[19;58H4[4;5H[?25h[?25l[19;60H6[4;6H[?25h[?25l[19;60H7[4;7H[?25h[?25l[19;60H8[4;8H[?25h[?25l[19;60H9[4;9H[?25h[?25l[19;60H10[4;10H[?25h[?25l[19;60H9 [4;9H[?25h[?25l[19;60H8[4;8H[?25h[?25l[19;60H7[4;7H[?25h[?25l[19;60H6[4;6H[?25h[?25l[19;60H5[4;5H[?25h[?25l[19;60H4[4;4H[?25h[?25l[19;60H3[4;3H[?25h[?25l[19;58H3[3;3H[?25h[?25l[19;1H[1m-- INSERT --[m[19;58H[K[19;58H4,1[11CTop[4;18r[4;1H[L[1;19r[19;58H[K[19;58H4,1[11CAll[4;1H[?25h[?25l[3;18r[18;1H
+[1;19r[3;1H[36mdir[m=[35m$([m[38;5;130mls[m[35m /[m[35m)[m[18;1H[94m~                                                                          [m[19;58H[K[19;58H3,12[10CAll[3;6H[35m[106m([4C)[?25h[?25l[m[19;61H1[3;11H[?25h[?25l[35m([4C)[m[19;61H0[3;10H[?25h[?25l[19;60H9 [3;9H[?25h[?25l[19;60H8[3;8H[?25h[?25l[35m[106m([4C)[m[19;60H7[3;7H[?25h[?25l[19;60H6[3;6H[?25h[?25l[35m([4C)[m[19;60H5[3;5H[?25h[?25l[19;60H4[3;4H[?25h[?25l[36m1[m=[35m$([m[38;5;130mls[m[35m /[m[35m)[m[19;60H5[3;5H[?25h[?25l[19;58H4[4;5H[?25h[?25l[19;60H4[4;4H[?25h[?25l[36m2[m=[35m`[m[38;5;130mls[m[35m /`[m[19;60H5[4;5H[?25h[19;1H[K[4;4H[?25l[19;58H4,4[11CAll[4;4H[?25h[?25l[19;1H[1m-- INSERT --[m[19;58H[K[19;58H5,1[11CTop[5;18r[5;1H[L[1;19r[19;58H[K[19;58H5,1[11CAll[5;1H[?25h[?25l[6;18r[6;1H[L[1;19r[19;58H[K[19;58H6,1[11CAll[6;1H[?25h[?25le[19;60H2[6;2H[?25h[?25lc[19;60H3[6;3H[?25h[?25lh[19;60H4[6;4H[?25h[?25l[38;5;130mecho[m[19;60H5[6;5H[?25h[?25l[31m [m[19;60H6[6;6H[?25h[?25l[31m$[m[19;60H7[6;7H[?25h[?25l[6;6H[K[19;60H6[6;6H[?25h[?25l[31me[m[19;60H7[6;7H[?25h[?25l[6;6H[K[19;60H6[6;6H[?25h[?25l[31md[m[19;60H7[6;7H[?25h[?25l[31mi[m[19;60H8[6;8H[?25h[?25l[31mr[m[19;60H9[6;9H[?25h[?25l[31m1[m[19;60H10[6;10H[?25h[?25l[7;18r[7;1H[L[1;19r[19;58H[K[19;58H7,1[11CAll[7;1H[?25h[?25l[6;18r[18;1H
+[1;19r[6;1H[38;5;130mecho[m[31m dir1[m[18;1H[94m~                                                                          [m[19;58H[K[19;58H6,10[10CAll[6;10H[?25h[?25l[6;9H[K[19;60H9 [6;9H[?25h[?25l[6;8H[K[19;60H8[6;8H[?25h[?25l[6;7H[K[19;60H7[6;7H[?25h[?25l[6;6H[K[19;60H6[6;6H[?25h[?25l[31m$[m[19;60H7[6;7H[?25h[?25l[35m$d[m[19;60H8[6;8H[?25h[?25l[35mi[m[19;60H9[6;9H[?25h[?25l[35mr[m[19;60H10[6;10H[?25h[?25l[35m1[m[19;61H1[6;11H[?25h[?25l[7;18r[7;1H[L[1;19r[19;58H[K[19;58H7,1[11CAll[7;1H[?25h[?25le[19;60H2[7;2H[?25h[?25lc[19;60H3[7;3H[?25h[?25lh[19;60H4[7;4H[?25h[?25l[38;5;130mecho[m[19;60H5[7;5H[?25h[?25l[31m [m[19;60H6[7;6H[?25h[?25l[31m$[m[19;60H7[7;7H[?25h[?25l[35m$d[m[19;60H8[7;8H[?25h[?25l[35mi[m[19;60H9[7;9H[?25h[?25l[35mr[m[19;60H10[7;10H[?25h[?25l[35m1[m[19;61H1[7;11H[?25h[?25l[7;10H[K[19;61H0[7;10H[?25h[?25l[35m2[m[19;61H1[7;11H[?25h[?25l[19;58H6[6;11H[?25h[?25l[31m [m[19;61H2[6;12H[?25h[?25l[31ma[m[19;61H3[6;13H[?25h[?25l[31md[m[19;61H4[6;14H[?25h[?25l[31ms[m[19;61H5[6;15H[?25h[?25l[31ma[m[19;61H6[6;16H[?25h[?25l[31md[m[19;61H7[6;17H[?25h[?25l;[19;61H8[6;18H[?25h[?25l[19;61H9[6;19H[?25h[?25ls[19;60H20[6;20H[?25h[?25la[19;61H1[6;21H[?25h[?25ld[19;61H2[6;22H[?25h[?25la[19;61H3[6;23H[?25h[?25ls[19;61H4[6;24H[?25h[?25l[19;61H5[6;25H[?25h[?25ld[19;61H6[6;26H[?25h[?25la[19;61H7[6;27H[?25h[?25ls[19;61H8[6;28H[?25h[?25ld[19;61H9[6;29H[?25h[?25l[6;28H[K[19;61H8[6;28H[?25h[?25l[6;27H[K[19;61H7[6;27H[?25h[?25l[6;26H[K[19;61H6[6;26H[?25h[?25l[6;25H[K[19;61H5[6;25H[?25h[?25l[19;61H4[6;24H[?25h[?25l[6;23H[K[19;61H3[6;23H[?25h[?25l[6;22H[K[19;61H2[6;22H[?25h[?25l[6;21H[K[19;61H1[6;21H[?25h[?25l[6;20H[K[19;61H0[6;20H[?25h[?25l[6;19H[K[19;60H19[6;19H[?25h[?25l[19;61H8[6;18H[?25h[?25l[6;17H[K[19;61H7[6;17H[?25h[?25l[6;16H[K[19;61H6[6;16H[?25h[?25l[6;15H[K[19;61H5[6;15H[?25h[?25l[6;14H[K[19;61H4[6;14H[?25h[?25l[6;13H[K[19;61H3[6;13H[?25h[?25l[6;12H[K[19;61H2[6;12H[?25h[?25l[6;11H[K[19;61H1[6;11H[?25h[19;1H[K[6;10H[?25l[19;58H6,10[10CAll[6;10H[?25h[?25l[19;58H[K[19;1H:[?2004h[?25hwq[?25l[?2004l"run.sh" 10L, 64C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ ./run.sh 
+bin boot dev etc home init lib lib32 lib64 libx32 lost+found media mnt opt proc root run sbin srv sys tmp usr var
+bin boot dev etc home init lib lib32 lib64 libx32 lost+found media mnt opt proc root run sbin srv sys tmp usr var
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ cat run.sh 
+#!/bin/bash
+
+dir1=$(ls /)
+dir2=`ls /`
+
+echo $dir1
+echo $dir2
+
+
+
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ vim run.sh 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;19r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[19;1H"run.sh" 10L, 64C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[34m#!/bin/bash[m
+
+[36mdir1[m=[35m$([m[38;5;130mls[m[35m /[m[35m)[m
+[36mdir2[m=[35m`[m[38;5;130mls[m[35m /`[m
+
+[38;5;130mecho[m[31m [m[35m$dir1[m
+[38;5;130mecho[m[31m [m[35m$dir2[m[11;1H[94m~                                                                          [12;1H~                                                                          [13;1H~                                                                          [14;1H~                                                                          [15;1H~                                                                          [16;1H~                                                                          [17;1H~                                                                          [18;1H~                                                                          [m[19;58H1,1[11CAll[1;1H[?25h[?25l[19;58H2,0-1[2;1H[?25h[?25l[19;58H3,1  [3;1H[?25h[?25l[19;58H4[4;1H[?25h[?25l[19;58H5,0-1[5;1H[?25h[?25l[19;58H4,1  [4;1H[?25h[?25l[19;58H3[3;1H[?25h[?25l[19;58H4[4;1H[?25h[?25l[4;18r[18;1H
+[1;19r[18;1H[94m~                                                                          [m[19;1H[K[19;58H4,0-1[9CAll[4;1H[?25h[?25l[19;58H5,1  [5;1H[?25h[?25l[5;18r[18;1H
+[1;19r[18;1H[94m~                                                                          [m[19;58H[K[19;58H5,1[11CAll[5;1H[?25h[?25l[5;18r[18;1H
+[1;19r[18;1H[94m~                                                                          [m[19;58H[K[19;58H5,0-1[9CAll[5;1H[?25h[?25l[19;1H[1m-- INSERT --[m[19;58H[K[19;58H5,1[11CAll[5;1H[?25h[?25lf[19;60H2[5;2H[?25h[?25lo[19;60H3[5;3H[?25h[?25l[38;5;130mfor[m[19;60H4[5;4H[?25h[?25l[19;60H5[5;5H[?25h[19;1H[K[5;4H[?25l[19;58H5,4[11CAll[5;4H[?25h[?25l[19;1H1 change; before #4  6 seconds ago[19;58H[K[5;1H[K[19;58H5,0-1[9CAll[19;58H[K[19;58H5,0-1[9CAll[5;1H[?25h[?25l[19;3Hmore line; before #3  8 seconds ago[19;58H[K[5;18r[5;1H[L[1;19r[5;1H[38;5;130mecho[m[31m [m[35m$dir2[m[19;1H[K[19;58H5,1[11CAll1 more line; before #3  8 seconds ago[19;58H[K[19;58H5,1[11CAll[5;1H[?25h[?25l[19;22H2[19;58H[K[5;18r[5;1H[L[1;19r[5;1H[38;5;130mecho[m[31m [m[35m$dir1[m[19;1H[K[19;58H5,1[11CAll1 more line; before #2  8 seconds ago[19;58H[K[19;58H5,1[11CAll[5;1H[?25h[?25l[19;22H1  10 seconds ago[19;58H[K[4;18r[4;1H[L[1;19r[4;1H[36mdir2[m=[35m`[m[38;5;130mls[m[35m /`[m[19;1H[K[19;58H4,1[11CAll1 more line; before #1  10 seconds ago[19;58H[K[19;58H4,1[11CAll[4;1H[?25h[?25l[19;58H5,0-1[5;1H[?25h[?25l[19;58H6,1  [6;1H[?25h[?25l[19;58H7[7;1H[?25h[?25l[19;58H8,0-1[8;1H[?25h[?25l[19;58H9[9;1H[?25h[?25l[19;1H[1m-- INSERT --[m[19;14H[K[19;58H9,1[11CAll[9;1H[?25h[?25l[10;18r[10;1H[L[1;19r[19;58H[K[19;58H10,1[10CAll[10;1H[?25h[?25l[11;18r[11;1H[L[1;19r[19;58H[K[19;58H11,1[10CAll[11;1H[?25h[?25l[19;59H0[10;1H[?25h[?25l[19;58H9,1 [9;1H[?25h[?25l[19;58H10,1[10;1H[?25h[?25lf[19;61H2[10;2H[?25h[?25lo[19;61H3[10;3H[?25h[?25l[38;5;130mfor[m[19;61H4[10;4H[?25h[?25l[19;61H5[10;5H[?25h[?25li[19;61H6[10;6H[?25h[?25l[38;5;130min[m[19;61H7[10;7H[?25h[?25li[10;6H[K[19;61H6[10;6H[?25h[?25l[10;5H[K[19;61H5[10;5H[?25h[?25la[19;61H6[10;6H[?25h[?25l[19;61H7[10;7H[?25h[?25li[19;61H8[10;8H[?25h[?25l[38;5;130min[m[19;61H9[10;9H[?25h[?25l[19;61H10[10;10H[?25h[?25l$[19;62H1[10;11H[?25h[?25l[35m$d[m[19;62H2[10;12H[?25h[?25l[35mi[m[19;62H3[10;13H[?25h[?25l[35mr[m[19;62H4[10;14H[?25h[?25l[35m1[m[19;62H5[10;15H[?25h[?25l[11;18r[11;1H[L[1;19r[19;58H[K[19;58H11,1[10CAll[11;1H[?25h[?25lt[19;61H2[11;2H[?25h[?25lh[19;61H3[11;3H[?25h[?25le[19;61H4[11;4H[?25h[?25l[97m[101mthen[m[19;61H5[11;5H[?25h[?25lthe[11;4H[K[19;61H4[11;4H[?25h[?25l[11;3H[K[19;61H3[11;3H[?25h[?25l[11;2H[K[19;61H2[11;2H[?25h[?25l[11;1H[K[19;61H1[11;1H[?25h[?25ld[19;61H2[11;2H[?25h[?25l[38;5;130mdo[m[19;61H3[11;3H[?25h[?25l[12;18r[12;1H[L[1;19r[19;58H[K[19;58H12,1[10CAll[12;1H[?25h[?25l[13;18r[13;1H[L[1;19r[19;58H[K[19;58H13,1[10CAll[13;1H[?25h[?25ld[19;61H2[13;2H[?25h[?25l[38;5;130mdo[m[19;61H3[13;3H[?25h[?25ldon[19;61H4[13;4H[?25h[?25l[38;5;130mdone[m[19;61H5[13;5H[?25h[?25l[19;59H2,1[12;1H[?25h[?25l[19;59H1,3[11;3H[?25h[?25l[19;59H2,1[12;1H[?25h[?25l[19;59H3,5[13;5H[?25h[?25ldon[13;4H[K[19;61H4[13;4H[?25h[?25l[38;5;130mdo[m[13;3H[K[19;61H3[13;3H[?25h[?25ld[13;2H[K[19;61H2[13;2H[?25h[?25l[13;1H[K[19;61H1[13;1H[?25h[?25l[12;18r[18;1H
+[1;19r[18;1H[94m~                                                                          [m[19;58H[K[19;58H12,1[10CAll[12;1H[?25h[?25l[11;18r[18;1H
+[1;19r[11;1H[38;5;130mdo[m[18;1H[94m~                                                                          [m[19;58H[K[19;58H11,3[10CAll[11;3H[?25h[?25ld[11;2H[K[19;61H2[11;2H[?25h[?25l[11;1H[K[19;61H1[11;1H[?25h[?25l[10;18r[18;1H
+[1;19r[10;1H[38;5;130mfor[m a [38;5;130min[m [35m$dir1[m[18;1H[94m~                                                                          [m[19;58H[K[19;58H10,15[9CAll[10;15H[?25h[?25l[11;18r[11;1H[L[1;19r[19;58H[K[19;58H11,1[10CAll[11;1H[?25h[?25l[35m{[m[19;61H2[11;2H[?25h[?25l[12;18r[12;1H[L[1;19r[19;58H[K[19;58H12,1[10CAll[12;1H[?25h[?25l[13;18r[13;1H[L[1;19r[19;58H[K[19;58H13,1[10CAll[13;1H[?25h[?25l[35m}[m[11;1H[35m[106m{
+
+}[m[19;61H2[13;2H[?25h[?25l[11;1H[35m{
+
+}[m[19;59H2,1[12;1H[?25h[?25l[19;61H2-5[12;5H[?25h[?25l[19;61H1  [12;1H[?25h[?25l[11;1H[35m[106m{
+
+}[m[19;59H3[13;1H[?25h[?25l[19;61H2[13;2H[?25h[?25l[13;1H[K[11;1H[35m{[m[19;61H1[13;1H[?25h[?25l[12;18r[18;1H
+[1;19r[18;1H[94m~                                                                          [m[19;58H[K[19;58H12,1[10CAll[12;1H[?25h[?25l[11;18r[18;1H
+[1;19r[11;1H[35m{[m[18;1H[94m~                                                                          [m[19;58H[K[19;58H11,2[10CAll[11;2H[?25h[?25l[11;1H[K[19;61H1[11;1H[?25h[?25l[10;18r[18;1H
+[1;19r[10;1H[38;5;130mfor[m a [38;5;130min[m [35m$dir1[m[18;1H[94m~                                                                          [m[19;58H[K[19;58H10,15[9CAll[10;15H[?25h[?25l[11;18r[11;1H[L[1;19r[19;58H[K[19;58H11,1[10CAll[11;1H[?25h[?25ld[19;61H2[11;2H[?25h[?25l[38;5;130mdo[m[19;61H3[11;3H[?25h[?25l[12;18r[12;1H[L[1;19r[19;58H[K[19;58H12,1[10CAll[12;1H[?25h[?25l[13;18r[13;1H[L[1;19r[19;58H[K[19;58H13,1[10CAll[13;1H[?25h[?25ld[19;61H2[13;2H[?25h[?25l[38;5;130mdo[m[19;61H3[13;3H[?25h[?25ldon[19;61H4[13;4H[?25h[?25l[38;5;130mdone[m[19;61H5[13;5H[?25h[?25l[19;59H2,1[12;1H[?25h[?25l[19;61H2-5[12;5H[?25h[?25le[19;61H3-6[12;6H[?25h[?25lc[19;61H4-7[12;7H[?25h[?25lh[19;61H5-8[12;8H[?25h[?25l[38;5;130mecho[m[19;61H6-9[12;9H[?25h[?25l[31m [m[19;61H7-10[12;10H[?25h[?25l[31m-[m[19;61H8-11[12;11H[?25h[?25l[31m-[m[19;61H9-12[12;12H[?25h[?25l[12;11H[K[19;61H8-11[12;11H[?25h[?25l[12;10H[K[19;61H7-10[12;10H[?25h[?25l[31m_[m[19;61H8-11[12;11H[?25h[?25l[31m_[m[19;61H9-12[12;12H[?25h[?25l[31m$[m[19;61H10-13[12;13H[?25h[?25l[35m$a[m[19;62H1-14[12;14H[?25h[?25l[35m_[m[19;62H2-15[12;15H[?25h[?25l[35m_[m[19;62H3-16[12;16H[?25h[19;1H[K[12;15H[?25l[19;58H12,12-15      All[12;15H[?25h[?25l[19;59H1,2    [11;2H[?25h[?25l[19;59H0,14[10;14H[?25h[?25l[19;58H9,0-1[9;1H[?25h[?25l[19;58H8[8;1H[?25h[?25l[19;58H7,10 [7;10H[?25h[?25l[19;58H6[6;10H[?25h[?25l[6;18r[18;1H
+[1;19r[18;1H[94m~                                                                          [m[19;58H[K[19;58H6,1[11CAll[6;1H[?25h[?25l[6;18r[18;1H
+[1;19r[18;1H[94m~                                                                          [m[19;58H[K[19;58H6,0-1[9CAll[6;1H[?25h[?25l[19;58H5[5;1H[?25h[?25l[19;58H4,1  [4;1H[?25h[?25l[4;18r[18;1H
+[1;19r[18;1H[94m~                                                                          [m[19;58H[K[19;58H4,0-1[9CAll[4;1H[?25h[?25l[4;18r[18;1H
+[1;19r[18;1H[94m~                                                                          [m[19;58H[K[19;58H4,0-1[9CAll[4;1H[?25h[?25l[4;18r[18;1H
+[1;19r[18;1H[94m~                                                                          [m[19;58H[K[19;58H4,0-1[9CAll[4;1H[?25h[?25l[19;58H[K[19;1H:[?2004h[?25hwq[?25l[?2004l"run.sh" 10L, 65C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ ca[K[K[H[2J]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ car[Kt run.sh 
+#!/bin/bash
+
+dir1=$(ls /)
+
+for a in $dir1
+do
+	echo __$a__
+done
+
+
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ ./run.sh [K[K[K[K[K[K[K[K[Kls /
+[0m[01;36mbin[0m   [01;34mdev[0m  [01;34mhome[0m  [01;36mlib[0m    [01;36mlib64[0m   [01;34mlost+found[0m  [01;34mmnt[0m  [01;34mproc[0m  [01;34mrun[0m   [01;34msrv[0m  [30;42mtmp[0m  [01;34mvar[0m
+[01;34mboot[0m  [01;34metc[0m  [01;32minit[0m  [01;36mlib32[0m  [01;36mlibx32[0m  [01;34mmedia[0m       [01;34mopt[0m  [01;34mroot[0m  [01;36msbin[0m  [01;34msys[0m  [01;34musr[0m
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ ./run.sh 
+__
+__
+__
+__
+__
+__
+__
+__
+__
+__
+__
+__
+__
+__
+__
+__
+__
+__
+__
+__
+__
+__
+__
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ vim run.sh 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;19r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[19;1H"run.sh" 10L, 65C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[34m#!/bin/bash[m
+
+[36mdir1[m=[35m$([m[38;5;130mls[m[35m /[m[35m)[m
+
+[38;5;130mfor[m a [38;5;130min[m [35m$dir1[m
+[38;5;130mdo
+[m    [38;5;130mecho[m[31m __[m[35m$a__[m
+[38;5;130mdone[m
+
+
+[94m~                                                                          [12;1H~                                                                          [13;1H~                                                                          [14;1H~                                                                          [15;1H~                                                                          [16;1H~                                                                          [17;1H~                                                                          [18;1H~                                                                          [m[19;58H1,1[11CAll[1;1H[?25h[?25l[19;58H2,0-1[2;1H[?25h[?25l[19;58H3,1  [3;1H[?25h[?25l[19;58H4,0-1[4;1H[?25h[?25l[19;58H5,1  [5;1H[?25h[?25l[19;58H6[6;1H[?25h[?25l[19;58H7,1-4[7;4H[?25h[?25l[19;60H2-5[7;5H[?25h[?25l[19;60H3-6[7;6H[?25h[?25l[19;60H4-7[7;7H[?25h[?25l[19;60H5-8[7;8H[?25h[?25l[19;60H6-9[7;9H[?25h[?25l[19;60H7-10[7;10H[?25h[?25l[19;60H8-11[7;11H[?25h[?25l[19;60H9-12[7;12H[?25h[?25l[19;60H10-13[7;13H[?25h[?25l[19;61H1-14[7;14H[?25h[?25l[19;61H2-15[7;15H[?25h[?25l[19;61H1-14[7;14H[?25h[?25l[19;61H2-15[7;15H[?25h[?25l[19;61H1-14[7;14H[?25h[?25l[19;61H0-13[7;13H[?25h[?25l[19;61H1-14[7;14H[?25h[?25l[19;61H2-15[7;15H[?25h[?25l[19;61H1-14[7;14H[?25h[?25l[19;1H[1m-- INSERT --[m[19;13H[K[19;58H7,11-14[7CAll[7;14H[?25h[?25l[19;61H0-13[7;13H[?25h[?25l[19;60H9-12 [7;12H[?25h[?25l[19;60H10-13[7;13H[?25h[?25l[19;61H1-14[7;14H[?25h[?25l[19;61H2-15[7;15H[?25h[?25l[19;61H1-14[7;14H[?25h[?25l[19;61H0-13[7;13H[?25h[?25l[19;60H9-12 [7;12H[?25h[?25l[19;60H10-13[7;13H[?25h[?25l[19;61H1-14[7;14H[?25h[?25l[19;61H0-13[7;13H[?25h[?25l[19;60H9-12 [7;12H[?25h[?25l[19;60H10-13[7;13H[?25h[?25l[19;60H9-12 [7;12H[?25h[?25l[19;60H10-13[7;13H[?25h[?25l[19;60H9-12 [7;12H[?25h[?25l[19;60H10-13[7;13H[?25h[?25l[19;60H9-12 [7;12H[?25h[?25l[19;60H10-13[7;13H[?25h[?25l[19;60H9-12 [7;12H[?25h[?25l[19;60H10-13[7;13H[?25h[?25l[19;61H1-14[7;14H[?25h[?25l[19;61H2-15[7;15H[?25h[?25l[19;61H1-14[7;14H[?25h[?25l[38;5;130m'[m[31m__
+done[m[19;61H2-15[7;15H[?25h[?25l[19;61H3-16[7;16H[?25h[?25l[19;61H4-17[7;17H[?25h[?25l[38;5;130m'
+done[m[19;61H5-18[7;18H[?25h[?25l[19;61H4-17[7;17H[?25h[?25l[19;61H3-16[7;16H[?25h[?25l[19;61H2-15[7;15H[?25h[?25l[19;61H1-14[7;14H[?25h[?25l[19;61H0-13[7;13H[?25h[?25l[19;60H9-12 [7;12H[?25h[?25l[19;60H8-11[7;11H[?25h[?25l[19;60H7-10[7;10H[?25h[?25l[19;60H6-9 [7;9H[?25h[?25l[19;60H7-10[7;10H[?25h[?25l[38;5;130m'[m[1C[31m_$a[m[38;5;130m'[m[1C[31m_[m[38;5;130m'[m
+[31mdone[m[19;60H8-11[7;11H[?25h[?25l[19;60H9-12[7;12H[?25h[?25l[19;60H10-13[7;13H[?25h[?25l[38;5;130m'[m[35m$a[m[38;5;130m'[m[1C[31m_[m[38;5;130m'
+done[m[19;61H1-14[7;14H[?25h[19;1H[K[7;13H[?25l[19;58H7,10-13[7CAll[7;13H[?25h[?25l[19;58H[K[19;1H:[?2004h[?25hwq[?25l[?2004l"run.sh" 10L, 69C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ [H[2J]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ ./run.sh 
+__bin__
+__boot__
+__dev__
+__etc__
+__home__
+__init__
+__lib__
+__lib32__
+__lib64__
+__libx32__
+__lost+found__
+__media__
+__mnt__
+__opt__
+__proc__
+__root__
+__run__
+__sbin__
+__srv__
+__sys__
+__tmp__
+__usr__
+__var__
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ ca[K[Kvim run.sh 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;19r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[19;1H"run.sh" 10L, 69C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[34m#!/bin/bash[m
+
+[36mdir1[m=[35m$([m[38;5;130mls[m[35m /[m[35m)[m
+
+[38;5;130mfor[m a [38;5;130min[m [35m$dir1[m
+[38;5;130mdo
+[m    [38;5;130mecho[m[31m [m[38;5;130m'[m[31m__[m[38;5;130m'[m[35m$a[m[38;5;130m'[m[31m__[m[38;5;130m'
+done[m
+
+
+[94m~                                                                          [12;1H~                                                                          [13;1H~                                                                          [14;1H~                                                                          [15;1H~                                                                          [16;1H~                                                                          [17;1H~                                                                          [18;1H~                                                                          [m[19;58H1,1[11CAll[1;1H[?25h[?25l[19;58H2,0-1[2;1H[?25h[?25l[19;58H3,1  [3;1H[?25h[?25l[19;58H4,0-1[4;1H[?25h[?25l[19;58H5,1  [5;1H[?25h[?25l[19;58H6[6;1H[?25h[?25l[19;58H7,1-4[7;4H[?25h[?25l[19;60H2-5[7;5H[?25h[?25l[19;60H3-6[7;6H[?25h[?25l[19;60H4-7[7;7H[?25h[?25l[19;60H5-8[7;8H[?25h[?25l[19;60H6-9[7;9H[?25h[?25l[19;60H7-10[7;10H[?25h[?25l[19;60H8-11[7;11H[?25h[?25l[19;60H9-12[7;12H[?25h[?25l[19;58H8,4   [8;4H[?25h[?25l[19;1H[1m-- INSERT --[m[19;13H[K[19;58H9,1[11CTop[9;18r[9;1H[L[1;19r[19;58H[K[19;58H9,1[11CAll[9;1H[?25h[?25l[10;18r[10;1H[L[1;19r[19;58H[K[19;58H10,1[10CAll[10;1H[?25h[?25li[19;61H2[10;2H[?25h[?25l[38;5;130mif[m[19;61H3[10;3H[?25h[?25l[38;5;130m [m[19;61H4[10;4H[?25h[19;1H[K[10;3H[?25l[19;58H10,3[10CAll[10;3H[?25h[?25l[19;61H2[10;2H[?25h[?25l[19;61H1[10;1H[?25h[?25l[10;18r[18;1H
+[1;19r[18;1H[94m~                                                                          [m[19;58H[K[19;58H10,0-1[8CAll[10;1H[?25h[?25l[10;18r[18;1H
+[1;19r[18;1H[94m~                                                                          [m[19;58H[K[19;58H10,0-1[8CAll[10;1H[?25h[?25l[94m~                                                                          [m[19;58H9,0-1 [9;1H[?25h[?25l[94m~                                                                          [m[19;58H8,1  [8;1H[?25h[?25l[19;58H[K[19;1H:[?2004h[?25hwq[?25l[?2004l"run.sh" 8L, 67C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash/example_0[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash/example_0[00m$ exit
+]0;dmanakov@NOTEBOOK-k0zFS5: ~/caos/01-bash[01;32mdmanakov@NOTEBOOK-k0zFS5[00m:[01;34m~/caos/01-bash[00m$ exit
+
+Script done on 2022-09-07 10:05:30+03:00 [COMMAND_EXIT_CODE="0"]
