@@ -14,3 +14,8 @@
 * [caos_7_file_status](https://daniladanila.github.io/caos-examples/pdfs/caos_7_file_status.html)
 * [caos_8_mmap](https://daniladanila.github.io/caos-examples/pdfs/caos_8_mmap.html)
 * [caos_9_fork](https://daniladanila.github.io/caos-examples/pdfs/caos_9_fork.html)
+* [caos_10_exec](https://daniladanila.github.io/caos-examples/pdfs/10_exec.html)
+* [caos_11_pipe](https://daniladanila.github.io/caos-examples/pdfs/11_pipe.html)
+* [caos_12_signal](https://daniladanila.github.io/caos-examples/pdfs/12_signal.html)
+* [caos_13_sockets](https://daniladanila.github.io/caos-examples/pdfs/13_sockets.html)
+* [caos_14_async](https://daniladanila.github.io/caos-examples/pdfs/14_async.html)
